@@ -1,0 +1,28 @@
+body{
+  background-color: rgb(103,242,216);
+  font-family: 'NeuzeitGro-Bol', serif;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+
+}
+
+
+p, span {
+  font-family: 'NeuzeitGro-Lig', serif;
+  background-color: rgba(255, 255, 255, 0);
+  max-width: 80%;
+  margin-left: 10%;
+  font-size: 1.4em;
+}
+
+.nav-link{
+  font-family: 'NeuzeitGro-Lig', serif;
+
+}
+button {
+  border: none;
+  background-color: rgba(0, 128, 0, 0);
+}
+
