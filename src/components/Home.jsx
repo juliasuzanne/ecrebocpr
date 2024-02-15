@@ -20,16 +20,7 @@ export function Home() {
       </p> */}
 
       <RiveTest></RiveTest>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
+
       <EmailForm></EmailForm>
       {/* <LeafTest></LeafTest>
       <br></br>
