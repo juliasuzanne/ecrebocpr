@@ -9,7 +9,7 @@ export function EmailForm() {
     const params = new FormData(event.target);
     setErrors([]);
     axios
-      .post("https://ecrebocpremail.fly.dev/contact_form", params)
+      .post("http://ecrebocpremail.fly.dev/contact_form", params)
       .then((response) => {
         console.log(response.data);
         event.target.reset();
