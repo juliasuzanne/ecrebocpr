@@ -9,7 +9,7 @@ export function RiveTest() {
 
       <div id="rivebox">
         <Rive
-          src=".//src/assets/ecrebocpr.riv"
+          src="ecrebocpr.riv"
           stateMachines="State Machine 1"
           // layout={
           //   new Layout({
