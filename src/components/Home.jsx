@@ -6,7 +6,7 @@ import { EmailForm } from "./EmailForm";
 export function Home() {
   return (
     <div>
-      <br></br>
+      {/* <br></br>
       <br></br>
       <br></br>
 
@@ -17,9 +17,19 @@ export function Home() {
       <p>
         Turn your real-time PoS data into highly targeted and immediate offers or messages with our light-touch,
         SaaS-based solution.
-      </p>
+      </p> */}
 
       <RiveTest></RiveTest>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
       <EmailForm></EmailForm>
       {/* <LeafTest></LeafTest>
       <br></br>
