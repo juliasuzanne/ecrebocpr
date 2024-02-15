@@ -19,13 +19,12 @@ export function Home() {
         SaaS-based solution.
       </p>
 
-      <Title></Title>
-      <EmailForm></EmailForm>
       <RiveTest></RiveTest>
-      <LeafTest></LeafTest>
+      <EmailForm></EmailForm>
+      {/* <LeafTest></LeafTest>
       <br></br>
       <br></br>
-      <LeafAnimation></LeafAnimation>
+      <LeafAnimation></LeafAnimation> */}
     </div>
   );
 }

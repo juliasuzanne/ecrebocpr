@@ -7,14 +7,9 @@ export function RiveTest() {
       <br></br>
       <br></br>
 
-      <br></br>
-
-      <br></br>
-
-      <br></br>
       <div id="rivebox">
         <Rive
-          src=".//src/assets/mixing_animations.riv"
+          src=".//src/assets/ecrebocpr.riv"
           stateMachines="State Machine 1"
           // layout={
           //   new Layout({
@@ -22,7 +17,7 @@ export function RiveTest() {
           //     alignment: Alignment.Center,
           //   })
           // }
-          style={{ width: "auto", height: "50vh", marginLeft: "20vw", marginRight: "20vw" }}
+          style={{ width: "60vw", height: "90vh", marginLeft: "10vw", marginRight: "10vw", top: "0" }}
           autoplay={true}
         />
       </div>

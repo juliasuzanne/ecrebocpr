@@ -6,6 +6,9 @@ import { EmailForm } from "./components/EmailForm";
 import { LeafTest } from "./components/LeafTest";
 import { RiveTest } from "./components/RiveTest";
 import { LeafAnimation } from "./components/LeafAnimation";
+import { FirstReceipt } from "./components/FirstReceipt";
+import { SecondReceipt } from "./components/SecondReceipt";
+import { ThirdReceipt } from "./components/ThirdReceipt";
 
 function App() {
   return (
@@ -16,6 +19,9 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/rive" element={<RiveTest />} />
           <Route path="/email" element={<EmailForm />} />
+          <Route path="/test1" element={<FirstReceipt />} />
+          <Route path="/test2" element={<SecondReceipt />} />
+          <Route path="/test3" element={<ThirdReceipt />} />
         </Routes>
       </BrowserRouter>
       {/* <Footer></Footer> */}
