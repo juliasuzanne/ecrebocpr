@@ -11,8 +11,19 @@
     url("/src/assets/NeuzeitGro-Bol.ttf") format("truetype");
 }
 
-@font-face {
-  font-family: "NeuzeitGro-Lig";   /*Can be any text*/
-  src: local("NeuzeitGro-Lig"),
-    url("/src/assets/NeuzeitGro-Lig.ttf") format("truetype");
-}
+@font-face { 
+  font-family: "NeuzitGro-Lig";
+  src: url(/assets/NeuzitGro-Lig.ttf) format("truetype");
+  }
+/* 
+  .App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+  } */
+
+  

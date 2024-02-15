@@ -9,10 +9,23 @@ body{
 }
 
 
+canvas {
+  align-items: center;
+
+}
+
+#rivebox {
+  align-items: center;
+  
+}
+
+
+
 p, span {
   font-family: 'NeuzeitGro-Lig', serif;
   background-color: rgba(255, 255, 255, 0);
   max-width: 80%;
+  color: rgb(40,43,74);
   margin-left: 10%;
   font-size: 1.4em;
 }
