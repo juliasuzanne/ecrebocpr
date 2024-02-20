@@ -7,13 +7,12 @@
 
 @font-face {
   font-family: "NeuzeitGro-Bol";   /*Can be any text*/
-  src: local("NeuzeitGro-Bol"),
-    url("/src/assets/NeuzeitGro-Bol.ttf") format("truetype");
+  src: url("/NeuzeitGro-Bol.ttf") format("truetype");
 }
 
 @font-face { 
   font-family: "NeuzitGro-Lig";
-  src: url(/assets/NeuzitGro-Lig.ttf) format("truetype");
+  src: url("/NeuzitGro-Lig.ttf") format("truetype");
   }
 /* 
   .App {
