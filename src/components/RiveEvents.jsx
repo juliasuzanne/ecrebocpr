@@ -1,8 +1,5 @@
 import { useRive, EventType, RiveEventType } from "@rive-app/react-canvas";
 import { useCallback, useEffect } from "react";
-import sound1 from "/printer.wav";
-
-import useSound from "use-sound";
 
 export function RiveEvents() {
   const { rive, RiveComponent } = useRive({
@@ -10,8 +7,6 @@ export function RiveEvents() {
     stateMachines: "State Machine 1",
     autoPlay: "false",
   });
-
-  const [play] = useSound(sound1);
 
   const onRiveEventReceived = (riveEvent) => {
     const eventData = riveEvent.data;
