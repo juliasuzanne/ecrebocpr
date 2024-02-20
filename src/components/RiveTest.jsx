@@ -1,12 +1,15 @@
 import Rive, { Alignment } from "@rive-app/react-canvas";
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 
 export function RiveTest() {
   return (
     <div>
       <br></br>
       <br></br>
-
+      <a href="/email">
+        <div id="boxy"></div>
+      </a>
       <div id="rivebox">
         <Rive
           src="ecrebocpr.riv"
@@ -17,8 +20,9 @@ export function RiveTest() {
           //     alignment: Alignment.Center,
           //   })
           // }
+
           style={{ width: "60vw", height: "90vh", marginLeft: "10vw", marginRight: "10vw", top: "0" }}
-          autoplay={true}
+          autoPlay={true}
         />
       </div>
     </div>

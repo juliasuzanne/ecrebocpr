@@ -18,7 +18,6 @@ export function Home() {
         Turn your real-time PoS data into highly targeted and immediate offers or messages with our light-touch,
         SaaS-based solution.
       </p> */}
-
       <RiveTest></RiveTest>
 
       <EmailForm></EmailForm>

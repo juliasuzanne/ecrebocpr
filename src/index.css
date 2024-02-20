@@ -19,6 +19,20 @@ canvas {
   
 }
 
+.riveBox{
+  height: 100vh;
+  width: 50vw;
+}
+
+
+#boxy{
+  background-color: transparent;
+  height: 80vh;
+  width: 30vw;
+  position:absolute;
+  margin-top: 10vh;
+  margin-left: 10vw;
+}
 
 
 p, span {
