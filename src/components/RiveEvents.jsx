@@ -45,7 +45,7 @@ export function RiveEvents() {
       <RiveComponent
         className="riveBox"
         onMouseEnter={() => rive && rive.play()}
-        // onMouseLeave={() => rive && rive.pause()}
+        onMouseLeave={() => rive && rive.pause()}
       />
     </div>
   );
