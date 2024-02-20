@@ -3,6 +3,7 @@ import { RiveTest } from "./RiveTest";
 import { LeafTest } from "./LeafTest";
 import { LeafAnimation } from "./LeafAnimation";
 import { EmailForm } from "./EmailForm";
+import { RiveEvents } from "./RiveEvents";
 export function Home() {
   return (
     <div>
@@ -18,9 +19,12 @@ export function Home() {
         Turn your real-time PoS data into highly targeted and immediate offers or messages with our light-touch,
         SaaS-based solution.
       </p> */}
-      <RiveTest></RiveTest>
+      <div className="receiptanim">
+        <RiveEvents></RiveEvents>
+      </div>
 
       <EmailForm></EmailForm>
+
       {/* <LeafTest></LeafTest>
       <br></br>
       <br></br>
