@@ -1,6 +1,6 @@
 body{
   background-color: rgb(103,242,216);
-  font-family: 'NeuzeitGro-Bol', serif;
+  font-family: 'NeuzeitGro-Bol', Verdana;
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -41,7 +41,7 @@ canvas {
 }
 
 p, span {
-  font-family: 'NeuzeitGro-Lig', serif;
+  font-family: 'NeuzeitGro-Lig', Verdana, Tahoma, sans-serif;
   background-color: rgba(255, 255, 255, 0);
   max-width: 80%;
   color: rgb(40,43,74);
@@ -50,7 +50,7 @@ p, span {
 }
 
 .nav-link{
-  font-family: 'NeuzeitGro-Lig', serif;
+  font-family: 'NeuzeitGro-Lig', Verdana;
 
 }
 button {
