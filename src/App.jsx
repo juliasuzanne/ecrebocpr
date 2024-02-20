@@ -11,6 +11,7 @@ import { SecondReceipt } from "./components/SecondReceipt";
 import { ThirdReceipt } from "./components/ThirdReceipt";
 import { RiveEvents } from "./components/RiveEvents";
 import { TestPage } from "./components/TestPage";
+import { Italian } from "./components/Italian";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           <Route path="/rive" element={<RiveTest />} />
           <Route path="/re" element={<RiveEvents />} />
           <Route path="/modernmarkets" element={<TestPage />} />
+          <Route path="/italian" element={<Italian />} />
           <Route path="/email" element={<EmailForm />} />
           <Route path="/test1" element={<FirstReceipt />} />
           <Route path="/test2" element={<SecondReceipt />} />

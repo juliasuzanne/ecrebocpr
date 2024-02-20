@@ -29,7 +29,7 @@ export function RiveEvents() {
       console.log("Event name", eventData.name);
       // Handle OpenUrl event manually
       if (eventData.name == "GoToGoogle") {
-        window.open("/modernmarkets", "_self");
+        window.open("/italian", "_self");
       } else if (eventData.name == "GoToHome") {
         window.open("/modernmarkets", "_self");
       }
