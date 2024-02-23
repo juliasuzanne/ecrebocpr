@@ -1,6 +1,6 @@
 import { Player, Controls } from "@lottiefiles/react-lottie-player";
 import jsonData from "/src/assets/leaftest.json";
-import { LottiePlayer, useLottie } from "lottie-react";
+import { useLottie, useLottieInteractivity } from "lottie-react";
 import { useState, useRef } from "react";
 
 export function LeafTest() {

@@ -20,13 +20,16 @@ export function Home() {
         Turn your real-time PoS data into highly targeted and immediate offers or messages with our light-touch,
         SaaS-based solution.
       </p> */}
-      <div className="container.fluid">
+      <div className="description container.fluid">
         <div className="row">
-          <div className="col-sm-12 col-md-6">
+          <div className="description col-sm-12 col-md-6">
             <HomePageDescription></HomePageDescription>
           </div>
 
           <div className="receiptanim col-sm-12 col-md-6">
+            <br></br>
+            <br></br>
+
             <RiveEvents></RiveEvents>
           </div>
         </div>

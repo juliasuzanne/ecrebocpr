@@ -1,9 +1,7 @@
 body{
-  background-color: rgb(103,242,216);
+  background-color: rgb(255, 255, 255);
   font-family: 'NeuzeitGro-Bol', Verdana;
-  max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
   text-align: center;
 
 }
@@ -37,15 +35,8 @@ canvas {
 
 
 
-.receiptanim{
-}
-
 p, span {
   font-family: 'NeuzeitGro-Lig', Verdana, Tahoma, sans-serif;
-  background-color: rgba(255, 255, 255, 0);
-  max-width: 80%;
-  color: rgb(40,43,74);
-  margin-left: 10%;
   font-size: 1.4em;
 }
 
@@ -58,3 +49,39 @@ button {
   background-color: rgba(0, 128, 0, 0);
 }
 
+
+.description{
+  background-color:  rgb(40,43,74);
+  color: rgb(240,237,243); 
+  text-align: left;
+  background-size: cover;
+  margin: auto;
+  padding-top: 5vh;
+  padding-left: 3vw;
+  padding-right: 2vw;
+
+}
+
+
+.descriptionhead1 {
+  color: white;
+  
+}
+
+.descriptionhead2 {
+  background-color: rgb(44,245,208);
+  color: rgb(40,43,74);
+  
+}
+
+.descriptiontext {
+  color:  rgb(228, 222, 234);
+}
+
+
+
+.receiptanim{
+  color: rgb(40,43,74);
+  background-color: rgb(171, 176, 198);
+  margin: 0 auto;
+}

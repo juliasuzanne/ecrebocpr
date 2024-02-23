@@ -18,10 +18,7 @@ function App() {
     <div id="total">
       <BrowserRouter>
         <Navbar></Navbar>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
+
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/rive" element={<RiveTest />} />
