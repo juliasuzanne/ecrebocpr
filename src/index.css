@@ -99,7 +99,7 @@ button {
 }
 
 .emailmessage{
-  height:200px;
+  height:100px;
   overflow-y:auto;
 }
 
@@ -152,4 +152,46 @@ text-align: left;
 
 .form-control{
   font-family: 'NeuzeitGro-Lig', Helvetica;
+  border: none;
+}
+
+
+
+
+.input,
+.textarea {
+  padding: 1px 6px;
+  border: none;
+
+}
+
+.input-wrap {
+  position: relative;
+}
+.input-wrap .input {
+  position: absolute;
+  width: 100%;
+  left: 0;
+}
+.width-machine {
+  /*   Sort of a magic number to add extra space for number spinner */
+  padding: 0 1rem;
+}
+
+
+.textarea {
+  border-radius: 5px;
+  text-decoration: none
+
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  resize: vertical;
+  min-height: 40px;
+  line-height: 20px;
+}
+
+.textarea[contenteditable]:empty::before {
+  content: "Placeholder still possible";
+  color: gray;
 }

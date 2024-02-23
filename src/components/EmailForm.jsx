@@ -54,7 +54,10 @@ export function EmailForm() {
           <div className="row">
             <div>
               Message:
-              <input name="message" className="emailmessage form-control" type="text" />
+              <p>
+                <textarea name="message" type="text" className="textarea"></textarea>
+              </p>
+              {/* <input name="message" className="textarea form-control" type="text" /> */}
             </div>
           </div>
         </div>
