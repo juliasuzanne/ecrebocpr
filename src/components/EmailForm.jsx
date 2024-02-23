@@ -23,31 +23,44 @@ export function EmailForm() {
 
   return (
     <div id="login">
-      <h3>Get In Touch</h3>
+      <div>
+        <div>
+          <h3>Get In Touch</h3>
+        </div>
+      </div>
       <ul>
         {errors.map((error) => (
           <li key={error}>{error}</li>
         ))}
       </ul>
       <form onSubmit={handleSubmit}>
-        <div>
-          E-mail:
-          <input name="email" className="form-control" type="email" />
+        <div className="container">
+          <div className="row">
+            <div>
+              E-mail:
+              <input name="email" className="form-control" type="email" />
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-sm-6">
+              First Name:
+              <input name="name" className="form-control" type="string" />
+            </div>
+            <div className="col-sm-6">
+              Last Name:
+              <input name="last_name" className="form-control" type="string" />
+            </div>
+          </div>
+          <div className="row">
+            <div>
+              Message:
+              <input name="message" className="emailmessage form-control" type="text" />
+            </div>
+          </div>
         </div>
         <div>
-          First Name:
-          <input name="name" className="form-control" type="string" />
+          <button className="submitbutton btn btn-secondary mt-3 submit">Submit</button>
         </div>
-        <div>
-          Last Name:
-          <input name="last_name" className="form-control" type="string" />
-        </div>
-        <div>
-          Message:
-          <input name="message" className="form-control" type="text" />
-        </div>
-
-        <button className="submitbutton btn btn-secondary mt-3 submit">Submit</button>
       </form>
     </div>
   );

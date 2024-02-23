@@ -1,9 +1,17 @@
 body{
   background-color: rgb(255, 255, 255);
-  font-family: 'NeuzeitGro-Bol', Verdana;
+  font-family: 'NeuzeitGro-Lig', Verdana;
   margin: 0 auto;
   text-align: center;
 
+}
+
+h1{
+  font-family: 'NeuzeitGro-Bol';
+}
+
+h3{
+  font-family: 'NeuzeitGro-Bol';
 }
 
 
@@ -47,6 +55,8 @@ p, span {
 button {
   border: none;
   background-color: rgba(0, 128, 0, 0);
+  font-family: 'NeuzeitGro-Bol';
+
 }
 
 
@@ -65,6 +75,7 @@ button {
 
 .descriptionhead1 {
   color: white;
+  font-size: 2.6em;
   
 }
 
@@ -76,12 +87,20 @@ button {
 .descriptionhead2 {
   background-color: rgb(44,245,208);
   color: rgb(40,43,74);
+  font-size: 2.6em;
+
   
 }
 
 .socialLink {
   height: 4vh;
   padding: .4em;
+
+}
+
+.emailmessage{
+  height:200px;
+  overflow-y:auto;
 }
 
 .submitbutton {
@@ -92,6 +111,7 @@ button {
   padding-bottom: .5em;
   padding-right: 1em;
   border-width: 2px;
+  font-family: 'NeuzeitGro-Bol';
 
   background-color: rgb(85,214,190);
   border-color: rgb(85,214,190);
@@ -120,8 +140,7 @@ button {
 
 .email{
   background-color: rgb(240,237,243);
-  align-items: left;
-  justify-content: left;
+  text-align: left;
 
 }
 
@@ -129,4 +148,8 @@ button {
 padding: 6vh;
 font-size: .7em;
 text-align: left;
+}
+
+.form-control{
+  font-family: 'NeuzeitGro-Lig', Helvetica;
 }
