@@ -23,11 +23,6 @@ export function EmailForm() {
 
   return (
     <div id="login">
-      <div>
-        <div>
-          <h3>Get In Touch</h3>
-        </div>
-      </div>
       <ul>
         {errors.map((error) => (
           <li key={error}>{error}</li>
@@ -35,6 +30,11 @@ export function EmailForm() {
       </ul>
       <form onSubmit={handleSubmit}>
         <div className="container">
+          <div className="row">
+            <div className="email-outsides">
+              <h3>Get In Touch</h3>
+            </div>
+          </div>
           <div className="row">
             <div>
               E-mail:
@@ -60,9 +60,9 @@ export function EmailForm() {
               {/* <input name="message" className="textarea form-control" type="text" /> */}
             </div>
           </div>
-        </div>
-        <div>
-          <button className="submitbutton btn btn-secondary mt-3 submit">Submit</button>
+          <div className="row">
+            <button className="submitbutton btn btn-secondary mt-3 submit col-sm-2">Submit</button>
+          </div>
         </div>
       </form>
     </div>
