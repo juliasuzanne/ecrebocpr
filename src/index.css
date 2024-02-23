@@ -6,6 +6,19 @@ body{
 
 }
 
+
+@font-face {
+  font-family: "NeuzeitGro-Bol";   /*Can be any text*/
+  src: local("NeuzeitGro-Bol"),
+  url("/NeuzeitGro-Bol.ttf") format("truetype");
+}
+
+@font-face { 
+  font-family: "NeuzitGro-Lig";
+  src: local("NeuzeitGro-Lig"),
+  url("/NeuzitGro-Lig.ttf") format("truetype");
+  }
+
 h1{
   font-family: 'NeuzeitGro-Bol';
 }
