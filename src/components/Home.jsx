@@ -5,6 +5,7 @@ import { LeafAnimation } from "./LeafAnimation";
 import { EmailForm } from "./EmailForm";
 import { RiveEvents } from "./RiveEvents";
 import { HomePageDescription } from "./HomePageDescription";
+import { EmailBuddy } from "./EmailBuddy";
 export function Home() {
   return (
     <div>
@@ -35,7 +36,16 @@ export function Home() {
         </div>
       </div>
 
-      <EmailForm></EmailForm>
+      <div className="email container.fluid">
+        <div className="row">
+          <div className="col-sm-12 col-md-4">
+            <EmailBuddy></EmailBuddy>
+          </div>
+          <div className="col-sm-12 col-md-8">
+            <EmailForm></EmailForm>
+          </div>
+        </div>
+      </div>
 
       {/* <LeafTest></LeafTest>
       <br></br>

@@ -68,10 +68,43 @@ button {
   
 }
 
+#login {
+  padding-top: 4vh;
+  padding: 5vw;
+}
+
 .descriptionhead2 {
   background-color: rgb(44,245,208);
   color: rgb(40,43,74);
   
+}
+
+.socialLink {
+  height: 4vh;
+  padding: .4em;
+}
+
+.submitbutton {
+  border-radius: 500px;
+  -webkit-border-radius: 500px;
+  padding-left: 1em;
+  padding-top: .5em;
+  padding-bottom: .5em;
+  padding-right: 1em;
+  border-width: 2px;
+
+  background-color: rgb(85,214,190);
+  border-color: rgb(85,214,190);
+  color: rgb(40,43,74);
+}
+
+.submitbutton:hover {
+
+  background-color:  rgb(240,237,243);
+  color: rgb(40,43,74);
+  border-width: 2px;
+  border-color: rgb(85,214,190);
+
 }
 
 .descriptiontext {
@@ -81,7 +114,19 @@ button {
 
 
 .receiptanim{
-  color: rgb(40,43,74);
-  background-color: rgb(171, 176, 198);
+  color: rgb(228, 222, 234);
   margin: 0 auto;
+}
+
+.email{
+  background-color: rgb(240,237,243);
+  align-items: left;
+  justify-content: left;
+
+}
+
+.emailbuddy{
+padding: 6vh;
+font-size: .7em;
+text-align: left;
 }

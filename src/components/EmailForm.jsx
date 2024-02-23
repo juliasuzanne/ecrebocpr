@@ -23,7 +23,7 @@ export function EmailForm() {
 
   return (
     <div id="login">
-      <h1>Contact Us</h1>
+      <h3>Get In Touch</h3>
       <ul>
         {errors.map((error) => (
           <li key={error}>{error}</li>
@@ -47,7 +47,7 @@ export function EmailForm() {
           <input name="message" className="form-control" type="text" />
         </div>
 
-        <button className="btn btn-secondary mt-3 submit">Submit</button>
+        <button className="submitbutton btn btn-secondary mt-3 submit">Submit</button>
       </form>
     </div>
   );
