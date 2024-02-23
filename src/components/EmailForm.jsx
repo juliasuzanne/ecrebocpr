@@ -61,7 +61,7 @@ export function EmailForm() {
             </div>
           </div>
           <div className="row">
-            <button className="submitbutton btn btn-secondary mt-3 submit col-sm-2">Submit</button>
+            <button className="submitbutton btn btn-secondary mt-3 submit ">Submit</button>
           </div>
         </div>
       </form>
