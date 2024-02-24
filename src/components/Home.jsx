@@ -26,16 +26,11 @@ export function Home() {
           <div className="description col-sm-12 col-md-6">
             <HomePageDescription></HomePageDescription>
           </div>
-
           <div className="receiptanim col-sm-12 col-md-6">
-            <br></br>
-            <br></br>
-
             <RiveEvents></RiveEvents>
           </div>
         </div>
       </div>
-
       <div className="email container.fluid">
         <div className="row">
           <div className="col-sm-12 col-md-4">

@@ -41,7 +41,7 @@ export function RiveEvents() {
 
   return (
     <div>
-      <p>Click to print a receipt that:</p>
+      <p className="clickto">Click to print a receipt that:</p>
       <RiveComponent
         className="riveBox"
         onMouseEnter={() => rive && rive.play()}
