@@ -1,7 +1,9 @@
 import "../Css/appstoremimic.css";
+import { NavbarPulse } from "./NavbarPulse";
 export function AppStoreMimic() {
   return (
     <div id="appstorecontainer">
+      <NavbarPulse />
       <br></br>
       <div className="previewcontainer">
         {" "}

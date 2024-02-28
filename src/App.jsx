@@ -9,8 +9,6 @@ function App() {
   return (
     <div id="total">
       <BrowserRouter>
-        <Navbar></Navbar>
-
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/acquire" element={<AppStoreMimic />} />
