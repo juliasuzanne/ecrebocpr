@@ -23,10 +23,14 @@ export function RiveEvents() {
     } else if (eventData.type === RiveEventType.OpenUrl) {
       console.log("Event name", eventData.name);
       // Handle OpenUrl event manually
-      if (eventData.name == "GoToGoogle") {
-        window.open("/italian", "_self");
-      } else if (eventData.name == "GoToHome") {
-        window.open("/modernmarkets", "_self");
+      if (eventData.name == "GoToAcquire") {
+        window.open("/acquire", "_self");
+      } else if (eventData.name == "GoToRx") {
+        window.open("/rx_link", "_self");
+      } else if (eventData.name == "GoToEngage") {
+        window.open("/engage", "_self");
+      } else if (eventData.name == "GoToConversion") {
+        window.open("/digital_conversion", "_self");
       }
     }
   };

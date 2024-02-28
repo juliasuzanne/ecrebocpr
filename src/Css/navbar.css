@@ -1,5 +1,6 @@
 .navbar-custom {
   background-color: rgb(40,43,74);
+  display: flex;
 }
 
 .nav-link{
