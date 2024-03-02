@@ -116,6 +116,7 @@ button {
 .belowreceipt{
   text-align:center;
   font-size: 1.3em;
+  line-height: 10px;
 }
 
 .description{
