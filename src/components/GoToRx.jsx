@@ -1,5 +1,5 @@
 import "../Css/rx.css";
-
+import { Footer } from "./Footer";
 export function GoToRx() {
   return (
     <div className="rxborder">
@@ -37,7 +37,7 @@ export function GoToRx() {
                 And, re-filling them in-store, or over the phone, is hard too. Our new MMRewards RxLink feature makes
                 everything pharmacy fast and easy.
               </p>
-              <br></br> Now you can use the MMRewards app to:{" "}
+              <p className="refillingthem">Now you can use the MMRewards app to: </p>
               <ul className="allrxitems">
                 <li>Place orders for prescriptions (for pickup or delivery)</li>
                 <li>Receive notifications when prescriptions are filled</li>
@@ -54,6 +54,7 @@ export function GoToRx() {
         </div>
         {/* <div className="bodyimage"></div> */}
       </div>
+      <Footer></Footer>
     </div>
   );
 }

@@ -88,7 +88,6 @@ figure {
   line-height: 1.38462;
   font-weight: 400;
   font-family: "SF Pro Text","SF Pro Icons","Apple WebExp Icons Custom","Helvetica Neue",Helvetica,Arial,sans-serif;
-  display: block;
   letter-spacing: .027em;
   margin: auto;
   padding-top: 1em;
@@ -150,6 +149,7 @@ figure {
 }
 
 .contentcontainer{
+  display: flex;
   margin-top: 30px;
   width: 80%;
   margin: auto;

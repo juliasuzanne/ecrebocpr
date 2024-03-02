@@ -1,6 +1,6 @@
 .rxcontainer{
-  min-height: 98vh;
   width: 90%;
+  min-height: 80vh;
   margin: auto;
   background-color: rgb(24,66,37);
 }
@@ -25,10 +25,10 @@
 
 .refillingthem{
   text-align: left;
-  font-size: 25px;
+  font-size: 2vh;
 }
 .allrxitems{
-  font-size: 15px;
+  font-size: 1.1vh;;
   text-align: left;
   margin: auto;
   padding: 30px;
@@ -47,9 +47,8 @@
 }
 
 .pharmacist{
-  height: 900px;
   background-image: url("https://res.cloudinary.com/dytb4ayqj/image/upload/v1709352241/AdobeStock_377668296_b7vwrx.jpg");
-  height: 90vh;
+  height: auto;
   background-size: cover;
   background-position-x: 0px;
   background-repeat: no-repeat;
