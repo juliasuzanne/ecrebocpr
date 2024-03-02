@@ -24,7 +24,7 @@ export function AppStoreMimic() {
           <h5 className="appstorepreview"> Preview</h5>
         </div>
         <hr></hr>
-        <div className="appstoreheadercontainer">
+        {/* <div className="appstoreheadercontainer">
           <div className="bannercontainer">
             <p className="banner">This app is available on the App Store for iPhone and iPad.</p>
           </div>
@@ -54,7 +54,7 @@ export function AppStoreMimic() {
                         src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1709134264/Screen_Shot_2024-02-28_at_10.30.56_AM_yzm8lu.png"
                       />
                     </div>
-                    {/* <p className="col-sm-0 inline-list__item">4.8 • 3.3K Ratings</p> */}
+                    <p className="col-sm-0 inline-list__item">4.8 • 3.3K Ratings</p> 
                   </div>
                 </div>
                 <p className="free"> Free</p>
@@ -63,7 +63,7 @@ export function AppStoreMimic() {
           </div>
           <br></br>
           <hr></hr>
-        </div>
+        </div> */}
       </div>
       <Footer></Footer>
     </div>
