@@ -11,6 +11,11 @@
 
 }
 
+#appstorecontainer{
+  height: 95vh;
+
+}
+
 .appstoretitle {
     font-size: 1.55em;
     line-height: 1.22226;

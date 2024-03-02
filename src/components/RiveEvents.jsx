@@ -45,12 +45,13 @@ export function RiveEvents() {
 
   return (
     <div>
-      <p className="clickto">Click to print a receipt that:</p>
-      <RiveComponent
-        className="riveBox"
-        onMouseEnter={() => rive && rive.play()}
-        onMouseLeave={() => rive && rive.pause()}
-      />
+      <div className="clicktopadding">
+        <span className="clickto">See Clickable Paper Receipts in Action: </span>
+      </div>
+      <RiveComponent className="riveBox" onMouseEnter={() => rive && rive.play()} />
+      <div>
+        <p className="belowreceipt">Viewing on mobile? Click to use QR.</p>
+      </div>
     </div>
   );
 }

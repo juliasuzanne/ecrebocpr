@@ -2,7 +2,7 @@ export function HomePageDescription() {
   return (
     <div className="description">
       <h1 className="descriptionhead1">Introducing Ecrebo CPR:</h1>{" "}
-      <h1 className="descriptionhead2">Clickable Paper Receipts™</h1>
+      <span className="descriptionhead2">Clickable Paper Receipts™</span>
       <br></br>
       <p className="descriptiontext">
         Instantly turn humble paper receipts into powerful digital marketing by adding personalized QR codes.
