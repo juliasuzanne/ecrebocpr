@@ -4,7 +4,20 @@ export function AppStoreMimic() {
   return (
     <div className="appstoreborder">
       <div id="appstorecontainer">
-        <br></br>
+        <div id="externalpagebackground">
+          <p className="externalpagedescription">
+            Existing loyalty club members who have yet to download the retailer’s loyalty app are sent directly to the
+            retailer’s App Store page where they can quickly install the retailer’s loyalty app.{" "}
+          </p>
+          <br></br>
+          <a className="externalpagedescriptionlink" href="/">
+            Click here to go back to home page.
+          </a>
+          <br></br>
+          <br></br>
+          <hr></hr>
+        </div>
+
         <div className="previewcontainer">
           {" "}
           <h5 className="appstoretitle">App Store </h5> &nbsp;
