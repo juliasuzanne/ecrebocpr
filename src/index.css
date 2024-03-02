@@ -1,9 +1,9 @@
 body{
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(40,43,74);
   font-family: 'NeuzeitGro-Lig';
   margin: 0 auto;
   text-align: center;
-  width: 101vw;
+  width: 100vw;
   overflow-x: hidden;
 }
 
