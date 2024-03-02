@@ -49,10 +49,6 @@ export function RiveEvents() {
         <span className="clickto">See Clickable Paper Receipts in Action: </span>
       </div>
       <RiveComponent className="riveBox" onMouseEnter={() => rive && rive.play()} />
-      <div>
-        <p className="belowreceipt">Viewing on mobile?</p>
-        <p className="belowreceipt">Just click the coupon to see where the QR goes.</p>
-      </div>
     </div>
   );
 }
