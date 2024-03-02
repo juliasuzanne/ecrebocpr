@@ -20,7 +20,7 @@ export function GoToRx() {
           <div className="navbarimage">
             <img
               className="mmlogo"
-              src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1709349819/mmlightnew_ymikrs.png"
+              src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1709349060/mmlogolight_mhgfb4.png"
             ></img>
           </div>
           <li className="navbartitle"> MODERN MARKETS </li>
@@ -29,9 +29,9 @@ export function GoToRx() {
           <li className="navbar-item">|</li>
           <li className="navbar-item">Call us!</li> */}
         </nav>
-        <div className="container.fluid">
+        <div className=" rxcontainer container.fluid">
           <div className="row pharmacist">
-            <p className="pharmacytext">
+            <p className="col-lg-5 col-md-10 col-sm-11 pharmacytext">
               <h1>We hear you. Ordering prescriptions can be a real hassle. </h1>{" "}
               <p className="refillingthem">
                 And, re-filling them in-store, or over the phone, is hard too. Our new MMRewards RxLink feature makes

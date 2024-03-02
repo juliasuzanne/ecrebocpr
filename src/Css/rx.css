@@ -32,11 +32,10 @@
   padding: 30px;
 }
 .pharmacytext{
-  background-color: rgb(255, 255, 255);
-  margin-left: 40%;
+  background-color: rgb(239,218,202);
+  margin-left:2%;
   margin-top: 10%;
   border-radius: 10px;
-  max-width: 50%;
   font-size: 20px;
   color: rgb(24,66,37);
   font-family: sans-serif;
@@ -47,10 +46,10 @@
 
 .pharmacist{
   height: 900px;
-  background-image: url("https://res.cloudinary.com/dytb4ayqj/image/upload/v1709350889/AdobeStock_673175425_nzqu19.jpg");
+  background-image: url("https://res.cloudinary.com/dytb4ayqj/image/upload/v1709352241/AdobeStock_377668296_b7vwrx.jpg");
   height: 90vh;
   background-size: cover;
-  background-position-x: -900px;
+  background-position-x: 0px;
   background-repeat: no-repeat;
 
 
@@ -65,7 +64,7 @@
   text-decoration: none;
   list-style: none;
   padding: 10px;
-  color: rgb(243,192,132);
+  color: rgb(239,218,202);
 }
 
 .navbar-item{
@@ -75,7 +74,7 @@
   text-decoration: none;
   list-style: none;
   padding: 10px;
-  color: rgb(243,192,132);
+  color: rgb(239,218,202);
 
 }
 
