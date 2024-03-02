@@ -14,11 +14,12 @@
 
 .appstoreborder{
   background-color:rgb(40,43,74);
+
 }
 
 #appstorecontainer{
-  height: 98vh;
   max-width: 90%;
+  height: 98vh;
   margin: auto;
   background-color: rgb(255, 255, 255); 
 
@@ -55,13 +56,8 @@
   /* border-color: rgb(213, 210, 210);
   border-style: solid;
   border-width: 0.1em; */
-  border-radius: 28%;
   width: 200px;
   height: 200px;
-  background-image: url("https://res.cloudinary.com/dytb4ayqj/image/upload/v1709133894/mmlogosbackgroundcolor_asn2mc.png");
-  background-size: contain;
-  
-
 }
 figure {
     margin-block-start: 1em;
@@ -92,10 +88,11 @@ figure {
   font-family: "SF Pro Text","SF Pro Icons","Apple WebExp Icons Custom","Helvetica Neue",Helvetica,Arial,sans-serif;
   display: block;
   letter-spacing: .027em;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
+  margin: auto;
+  padding-top: 1em;
+  padding-bottom: 1em;
+
+
 
 }
 

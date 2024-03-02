@@ -16,7 +16,11 @@ export function AppStoreMimic() {
             <p className="banner">This app is available on the App Store for iPhone and iPad.</p>
           </div>
           <div className="contentcontainer">
-            <button className="appstorebutton"></button>
+            <img
+              className="appstorebutton"
+              src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1709347602/mmlogoforappstore_wce85p.png"
+            />
+
             <div className="appdescriptiontext">
               <h5 className="appstoretitle">
                 Modern Markets <button className="ratingbutton"> 4+ </button>
