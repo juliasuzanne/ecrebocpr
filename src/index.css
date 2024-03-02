@@ -126,9 +126,9 @@ button {
 .footer{
   background-color: rgb(235,228,238);
   font-size: .8em;
-  position: relative;
   width: 100%;
   padding: 2vh; 
+  display: flex;
 }
 
 .clickto {
