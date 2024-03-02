@@ -17,7 +17,7 @@ div {
 @font-face { 
   font-family: "NeuzeitGro-Lig";
   src: local("NeuzeitGro-Lig"),
-  url("/NeuzitGro-Lig.ttf") format("truetype");
+  url("/NeuzeitGro-Lig.ttf") format("truetype");
   }
 
   /* .App {
@@ -25,9 +25,9 @@ div {
     text-align: center;
   } */
   
-  body {
+  /* body {
     margin: 0;
     padding: 0;
   } 
 
-  
+   */
