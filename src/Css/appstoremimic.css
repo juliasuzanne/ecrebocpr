@@ -7,21 +7,20 @@
 
   margin: auto;
   align-content: center;
-  display: inline-block;
  
 
 }
 
 .appstoreborder{
   background-color:rgb(40,43,74);
-  min-width: 100vw;
+  min-width: 100%;
   min-height: 100vh;
 }
 
 
 
 #appstorecontainer{
-  max-width: 90%;
+  width: 90%;
   height: 98vh;
   margin: auto;
   background-color: rgb(255, 255, 255); 
@@ -153,7 +152,9 @@ figure {
 .contentcontainer{
   display: flex;
   margin-top: 30px;
-  width: 90%;
+  width: 80%;
+  margin: auto;
+  padding: 3%;
 }
 
 .appstoretitle{

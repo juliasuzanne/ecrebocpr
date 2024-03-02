@@ -10,20 +10,24 @@
   url("/NeuzeitGro-Bol.ttf") format("truetype");
 }
 
+div {
+  display: inline-flex;
+}
+
 @font-face { 
   font-family: "NeuzitGro-Lig";
   src: local("NeuzeitGro-Lig"),
   url("/NeuzitGro-Lig.ttf") format("truetype");
   }
-/* 
-  .App {
+
+  /* .App {
     font-family: sans-serif;
     text-align: center;
-  }
+  } */
   
   body {
     margin: 0;
     padding: 0;
-  } */
+  } 
 
   
