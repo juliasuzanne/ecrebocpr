@@ -8,11 +8,19 @@
   margin: auto;
   align-content: center;
   display: inline-block;
+ 
 
 }
 
+.appstoreborder{
+  background-color:rgb(40,43,74);
+}
+
 #appstorecontainer{
-  height: 95vh;
+  height: 98vh;
+  max-width: 90%;
+  margin: auto;
+  background-color: rgb(255, 255, 255); 
 
 }
 
