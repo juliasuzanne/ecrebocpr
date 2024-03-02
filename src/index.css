@@ -5,8 +5,6 @@ body{
   text-align: center;
   width: 101vw;
   overflow-x: hidden;
-
-
 }
 
 .disclaimer {
@@ -23,9 +21,9 @@ body{
 }
 
 @font-face { 
-  font-family: "NeuzitGro-Lig";
+  font-family: "NeuzeitGro-Lig";
   src: local("NeuzeitGro-Lig"),
-  url("/NeuzitGro-Lig.ttf") format("truetype");
+  url("/NeuzeitGro-Lig.ttf") format("truetype");
   }
 
 h1{
@@ -139,6 +137,14 @@ button {
   font-size: 1.7em;
 }
 
+html, body{
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
 .belowreceipt{
   text-align:center;
   font-size: 1.3em;
@@ -148,7 +154,6 @@ button {
   background-color:  rgb(40,43,74);
   color: rgb(240,237,243); 
   text-align: left;
-  background-size: cover;
   margin: 0 auto;
   padding-top: 5vh;
   padding-left: 3vw;

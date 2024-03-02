@@ -5,7 +5,7 @@ import { Footer } from "./Footer";
 import { EmailBuddy } from "./EmailBuddy";
 export function Home() {
   return (
-    <div>
+    <div className="bodyborder">
       <div className="description container.fluid">
         <div className="row">
           <div className="description col-sm-12 col-md-6">
