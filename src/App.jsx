@@ -19,7 +19,6 @@ function App() {
           <Route path="/rx_link" element={<GoToRx />} />
         </Routes>
       </BrowserRouter>
-      <Footer></Footer>
     </div>
   );
 }

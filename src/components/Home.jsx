@@ -1,6 +1,7 @@
 import { EmailForm } from "./EmailForm";
 import { RiveEvents } from "./RiveEvents";
 import { HomePageDescription } from "./HomePageDescription";
+import { Footer } from "./Footer";
 import { EmailBuddy } from "./EmailBuddy";
 export function Home() {
   return (
@@ -25,6 +26,7 @@ export function Home() {
           </div>
         </div>
       </div>
+      <Footer></Footer>
     </div>
   );
 }

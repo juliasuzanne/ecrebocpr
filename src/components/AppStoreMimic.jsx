@@ -1,5 +1,5 @@
 import "../Css/appstoremimic.css";
-import { NavbarPulse } from "./NavbarPulse";
+import { Footer } from "./Footer";
 export function AppStoreMimic() {
   return (
     <div className="appstoreborder">
@@ -60,6 +60,7 @@ export function AppStoreMimic() {
           <hr></hr>
         </div>
       </div>
+      <Footer></Footer>
     </div>
   );
 }

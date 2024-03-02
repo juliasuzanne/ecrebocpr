@@ -120,25 +120,22 @@ button {
 
 .externalpagedescriptionlink:hover{
   color:rgb(118,98,238);
-
 }
-
 
 .footer{
   background-color: rgb(235,228,238);
-  font-size: 14px;
-  position: absolute;
+  font-size: .8em;
+  position: relative;
   width: 100%;
   padding: 2vh; 
-
 }
+
 .clickto {
   color: 
   rgb(44,245,208);
   text-align: center;
   font-family: monaco;
   font-size: 1.7em;
-
 }
 
 .belowreceipt{
