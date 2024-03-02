@@ -111,6 +111,7 @@ figure {
   color: grey;
   font-size: .8em;
   line-height: 3em;
+  text-wrap: none;
 }
 
 
