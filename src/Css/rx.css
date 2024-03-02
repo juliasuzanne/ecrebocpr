@@ -1,0 +1,88 @@
+.rxcontainer{
+  min-height: 98vh;
+  width: 90%;
+  margin: auto;
+  background-color: rgb(24,66,37);
+}
+.rxborder{
+  background-color:rgb(40,43,74);
+}
+
+.navbar-rx{
+  background-color: 
+  rgb(24, 66, 37);
+}
+.mmlogo{
+  float: center;
+  height: 60px;
+  padding-left: 30px;
+}
+
+.navbar-items{
+}
+
+.refillingthem{
+  text-align: left;
+  font-size: 25px;
+}
+.allrxitems{
+  font-size: 15px;
+  text-align: left;
+  margin: auto;
+  padding: 30px;
+}
+.pharmacytext{
+  background-color: rgb(255, 255, 255);
+  margin-left: 40%;
+  margin-top: 10%;
+  border-radius: 10px;
+  max-width: 50%;
+  font-size: 20px;
+  color: rgb(24,66,37);
+  font-family: sans-serif;
+  padding: 20px;
+  top: 50%;
+  padding-bottom: 0;
+}
+
+.pharmacist{
+  height: 900px;
+  background-image: url("https://res.cloudinary.com/dytb4ayqj/image/upload/v1709350889/AdobeStock_673175425_nzqu19.jpg");
+  height: 90vh;
+  background-size: cover;
+  background-position-x: -900px;
+  background-repeat: no-repeat;
+
+
+
+}
+.navbartitle{
+  font-family: Helvetica;
+  margin-top: 40px;
+  font-size: 25px;
+  font-weight: normal;
+  letter-spacing:5.5px;
+  text-decoration: none;
+  list-style: none;
+  padding: 10px;
+  color: rgb(243,192,132);
+}
+
+.navbar-item{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: oblique;
+  font-size: 25px;
+  text-decoration: none;
+  list-style: none;
+  padding: 10px;
+  color: rgb(243,192,132);
+
+}
+
+.bodyimage {
+  background-image: url("https://res.cloudinary.com/dytb4ayqj/image/upload/v1709349538/grocery_sfh8ho.png");
+  height: 60vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}

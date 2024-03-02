@@ -31,7 +31,7 @@ export function AppStoreMimic() {
           <div className="contentcontainer">
             <img
               className="appstorebutton"
-              src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1709347602/mmlogoforappstore_wce85p.png"
+              src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1709349812/mmlogonewcolorapp_a4zd6s.png"
             />
 
             <div className="appdescriptiontext">
