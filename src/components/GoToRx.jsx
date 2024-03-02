@@ -29,9 +29,9 @@ export function GoToRx() {
           <li className="navbar-item">|</li>
           <li className="navbar-item">Call us!</li> */}
         </nav>
-        <div className=" rxcontainer container.fluid">
-          <div className="row pharmacist">
-            <p className="col-lg-5 col-md-10 col-sm-11 pharmacytext">
+        <div className="rxcontainer">
+          {/* <div className="pharmacist">
+            <p className="pharmacytext">
               <h1>We hear you. Ordering prescriptions can be a real hassle. </h1>{" "}
               <p className="refillingthem">
                 And, re-filling them in-store, or over the phone, is hard too. Our new MMRewards RxLink feature makes
@@ -50,7 +50,7 @@ export function GoToRx() {
               </ul>
               <h3>And, enjoy 2X MMRewards on all prescriptions! Activate your secure MMRewards RxLink now!</h3>
             </p>
-          </div>
+          </div> */}
         </div>
         {/* <div className="bodyimage"></div> */}
       </div>
