@@ -122,6 +122,7 @@ button {
   color:rgb(118,98,238);
 }
 
+
 .footer{
   background-color: rgb(235,228,238);
   font-size: .8em;
@@ -141,7 +142,6 @@ button {
 .belowreceipt{
   text-align:center;
   font-size: 1.3em;
-  line-height: 10px;
 }
 
 .description{
