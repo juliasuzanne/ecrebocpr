@@ -58,8 +58,8 @@
   /* border-color: rgb(213, 210, 210);
   border-style: solid;
   border-width: 0.1em; */
-  width: 200px;
-  height: 200px;
+  width: 12em;
+  height: 12em;
 }
 figure {
     margin-block-start: 1em;
@@ -84,7 +84,7 @@ figure {
 .banner{
   color: #484848;
   text-align: center;
-  font-size: 13px;
+  font-size: .8em;
   line-height: 1.38462;
   font-weight: 400;
   font-family: "SF Pro Text","SF Pro Icons","Apple WebExp Icons Custom","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -100,7 +100,7 @@ figure {
 
 .bannercontainer{
   background-color: #F2F8FC;
-  padding: .5px;
+  padding: .2em;
   width: 80vw;
 }
 
@@ -108,7 +108,7 @@ figure {
   list-style: none;
   letter-spacing: .027em;
   color: grey;
-  font-size: 11px;
+  font-size: .8em;
   line-height: 3em;
 }
 
@@ -118,25 +118,25 @@ figure {
   letter-spacing: .027em;
   font-family: "SF Pro Text","SF Pro Icons","Apple WebExp Icons Custom","Helvetica Neue",Helvetica,Arial,sans-serif;
   color: #393939;
-  font-size: 13px;
+  font-size: .8em;
 }
 
 .ranking {
   letter-spacing: .027em;
   font-family: "SF Pro Text","SF Pro Icons","Apple WebExp Icons Custom","Helvetica Neue",Helvetica,Arial,sans-serif;
   color: #0170C9;
-  font-size: 13px;
-  line-height: 8px;
+  font-size: .8em;
+  line-height: 1em;
 }
 
 .appstorelink {
   letter-spacing: .027em;
   font-family: "SF Pro Text","SF Pro Icons","Apple WebExp Icons Custom","Helvetica Neue",Helvetica,Arial,sans-serif;
   color: #0170C9;
-  font-size: 19px;
+  font-size: 1.2em;
   font-weight: 100px;
-      line-height: 8px;
-      padding-bottom: 14px;
+    line-height: 1em;
+    padding-bottom: .8em;
 
 
 }
@@ -157,15 +157,15 @@ figure {
    letter-spacing: .027em;
   font-family: "SF Pro Text","SF Pro Icons","Apple WebExp Icons Custom","Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: 100px;
-      line-height: 1;
-          font-size: 21px;
+      line-height: 1em;
+          font-size: 1.3em;
 
 
 }
 
 .appstorepreview{
       color: #636366;
-    font-size: 21px;
+    font-size: 1.3em;
     line-height: 1;
     font-weight: 400;
     letter-spacing: .009em;
@@ -175,5 +175,5 @@ figure {
 
 .previewcontainer{
   display: flex;
-  padding-left: 20px;
+  padding-left: 1.2em;
 }
