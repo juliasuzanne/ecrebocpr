@@ -21,8 +21,8 @@
 
 #appstorecontainer{
   width: 90%;
-  height: 98vh;
   margin: auto;
+  min-height: 98vh;
   background-color: rgb(255, 255, 255); 
 
 }
@@ -99,7 +99,7 @@ figure {
 
 .bannercontainer{
   background-color: #F2F8FC;
-  padding: .2em;
+  margin: auto;
   width: 80vw;
 }
 

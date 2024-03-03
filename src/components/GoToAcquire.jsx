@@ -27,14 +27,8 @@ export function GoToAcquire() {
           <h5 className="appstorepreview"> Preview</h5>
         </div>
         <hr></hr>
-        <div className="contentcontainer">
-          <p className="appisavailable">This app is available on the App Store for iPhone and iPad.</p>
-        </div>
-        <img
-          className="logo"
-          src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1709349812/mmlogonewcolorapp_a4zd6s.png"
-        />
-        {/* <div className="appstoreheadercontainer">
+
+        <div className="appstoreheadercontainer">
           <div className="bannercontainer">
             <p className="banner">This app is available on the App Store for iPhone and iPad.</p>
           </div>
@@ -43,37 +37,27 @@ export function GoToAcquire() {
               className="appstorebutton"
               src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1709349812/mmlogonewcolorapp_a4zd6s.png"
             />
-            <div className="container.fluid">
-              <div className="appdescriptiontext">
-                <div className="row">
-                  <h5 className="appstoretitle">
-                    Modern Markets <button className="ratingbutton"> 4+ </button>
-                  </h5>
+            <div className="appdescriptiontext">
+              <h5 className="appstoretitle">
+                Modern Markets <button className="ratingbutton"> 4+ </button>
+              </h5>
+              <p className="col-sm-0 appstorelink">Modern Markets Services, Inc.</p>
+              <p className="ranking">#121 in Shopping</p>
+              <div className="rating col-sm-12">
+                <div className=" inline-list__item">
+                  <img
+                    className="starrating"
+                    src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1709134264/Screen_Shot_2024-02-28_at_10.30.56_AM_yzm8lu.png"
+                  />
                 </div>
-                <div className="row">
-                  <p className="col-sm-0 appstorelink">Modern Markets Services, Inc.</p>
-                </div>
-                <div className="row">
-                  <p className="ranking">#121 in Shopping</p>
-                </div>
-                <div className="row">
-                  <div className="rating col-sm-12">
-                    <div className="col-lg-12 inline-list__item">
-                      <img
-                        className="starrating"
-                        src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1709134264/Screen_Shot_2024-02-28_at_10.30.56_AM_yzm8lu.png"
-                      />
-                    </div>
-                    <p className="col-sm-0 inline-list__item">4.8 • 3.3K Ratings</p> 
-                  </div>
-                </div>
-                <p className="free"> Free</p>
+                {/* <p className=" inline-list__item">4.8 • 3.3K Ratings</p> */}
               </div>
+              <p className="free"> Free</p>
             </div>
           </div>
           <br></br>
           <hr></hr>
-        </div> */}
+        </div>
       </div>
       <Footer></Footer>
     </div>
