@@ -36,7 +36,7 @@ export function GoToAcquire() {
             <div className="contentcontainer">
               <img
                 className="appstorebutton"
-                src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1709349812/mmlogonewcolorapp_a4zd6s.png"
+                src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1709435653/mmlogobutton_t6xprw.png"
               />
               <div className="appdescriptiontext">
                 <h5 className="appstoretitle">
