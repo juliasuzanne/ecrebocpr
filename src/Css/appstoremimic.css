@@ -71,7 +71,7 @@ figure {
 }
 
 .starrating{
-  height: 18px;
+  height: 2vw;
   text-align: left;
 }
 
@@ -83,7 +83,7 @@ figure {
 .banner{
   color: #484848;
   text-align: center;
-  font-size: .8em;
+  font-size: 1.5vw;
   line-height: 1.38462;
   font-weight: 400;
   font-family: "SF Pro Text","SF Pro Icons","Apple WebExp Icons Custom","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -117,14 +117,14 @@ figure {
   letter-spacing: .027em;
   font-family: "SF Pro Text","SF Pro Icons","Apple WebExp Icons Custom","Helvetica Neue",Helvetica,Arial,sans-serif;
   color: #393939;
-  font-size: .8em;
+  font-size: 1.2vw;
 }
 
 .ranking {
   letter-spacing: .027em;
   font-family: "SF Pro Text","SF Pro Icons","Apple WebExp Icons Custom","Helvetica Neue",Helvetica,Arial,sans-serif;
   color: #0170C9;
-  font-size: .8em;
+  font-size: 1.3vw;
   line-height: 1em;
 }
 
@@ -132,7 +132,7 @@ figure {
   letter-spacing: .027em;
   font-family: "SF Pro Text","SF Pro Icons","Apple WebExp Icons Custom","Helvetica Neue",Helvetica,Arial,sans-serif;
   color: #0170C9;
-  font-size: 1.2em;
+  font-size: 2.2vw;
   font-weight: 100px;
     line-height: 1em;
     padding-bottom: .8em;
@@ -183,15 +183,15 @@ figure {
   font-family: "SF Pro Text","SF Pro Icons","Apple WebExp Icons Custom","Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: 100px;
       line-height: 1em;
-          font-size: 1.3em;
+          font-size: 3vw;
 
 
 }
 
 .appstorepreview{
       color: #636366;
-    font-size: 1.3em;
-    line-height: 1;
+      font-size: 3vw;
+      line-height: 1;
     font-weight: 400;
     letter-spacing: .009em;
     font-family: "SF Pro Display","SF Pro Icons","Apple WebExp Icons Custom","Helvetica Neue",Helvetica,Arial,sans-serif;

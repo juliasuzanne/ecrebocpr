@@ -31,30 +31,31 @@ export function AppStoreMimic() {
 
           <div className="container contentcontainer">
             <div className="row">
-              <div className="col-lg-4 col-sm-5">
+              <div className="col">
                 <img
-                  className="appstorebutton "
+                  className="appstorebutton"
                   src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1709349812/mmlogonewcolorapp_a4zd6s.png"
                 />
               </div>
+              <div className="col">
+                <div className="appdescriptiontext">
+                  <h5 className="appstoretitle">
+                    Modern Markets <button className="ratingbutton"> 4+ </button>
+                  </h5>
 
-              <div className="appdescriptiontext col-lg-6 col-sm-5">
-                <h5 className="appstoretitle">
-                  Modern Markets <button className="ratingbutton"> 4+ </button>
-                </h5>
+                  <p className="appstorelink">Modern Markets Services, Inc.</p>
+                  <p className="ranking">#121 in Shopping</p>
+                  {/* <div className="rating"> */}
+                  {/* <div className="inline-list__item"> */}
+                  <img
+                    className="starrating"
+                    src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1709688241/Screen_Shot_2024-03-05_at_8.23.16_PM_ocyssm.png"
+                  />
+                  {/* </div> */}
 
-                <p className="appstorelink">Modern Markets Services, Inc.</p>
-                <p className="ranking">#121 in Shopping</p>
-                {/* <div className="rating"> */}
-                {/* <div className="inline-list__item"> */}
-                <img
-                  className="starrating"
-                  src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1709688241/Screen_Shot_2024-03-05_at_8.23.16_PM_ocyssm.png"
-                />
-                {/* </div> */}
-
-                <p className="free">Free</p>
-                {/* </div> */}
+                  <p className="free">Free</p>
+                  {/* </div> */}
+                </div>
               </div>
             </div>
           </div>
