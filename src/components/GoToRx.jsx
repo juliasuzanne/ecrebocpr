@@ -15,15 +15,23 @@ export function GoToRx() {
         <br></br>
         <br></br>
       </div>
+
       <div className="rxcontainer">
-        <nav className="navbar navbar-rx navbar-expand-lg navbar-light">
-          <div className="navbarimage">
-            <img
-              className="mmlogo"
-              src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1709701300/mmlogowhite_ik707g.png"
-            ></img>
+        <div className="mmnavbar">
+          <hr></hr>
+        </div>
+
+        <div className="mmnavbar">
+          <img
+            className="engagelogo"
+            src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1709701300/mmlogowhite_ik707g.png"
+          ></img>
+          <div className="inputsearch">
+            <input className="fakesearch"></input>
           </div>
-          <li className="navbartitle"> MODERN MARKETS </li>
+        </div>
+        <nav className="navbar navbar-rx navbar-expand-lg navbar-light">
+          <div className="navbarimage"></div>
           &nbsp; &nbsp;
           {/* <li className="navbar-item">FAQ</li>
           <li className="navbar-item">|</li>
