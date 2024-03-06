@@ -48,7 +48,7 @@ export function GoToAcquire() {
                   <div className=" inline-list__item">
                     <img
                       className="starrating"
-                      src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1709134264/Screen_Shot_2024-02-28_at_10.30.56_AM_yzm8lu.png"
+                      src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1709688241/Screen_Shot_2024-03-05_at_8.23.16_PM_ocyssm.png"
                     />
                   </div>
                   {/* <p className=" inline-list__item">4.8 • 3.3K Ratings</p> */}

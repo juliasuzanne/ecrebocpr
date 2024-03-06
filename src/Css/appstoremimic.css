@@ -56,11 +56,12 @@
 }
 
 .appstorebutton {
+ display: flex;
+  width: 100%;
+  padding-bottom: 4em;
   /* border-color: rgb(213, 210, 210);
   border-style: solid;
   border-width: 0.1em; */
-  width: 12em;
-  height: 12em;
 }
 figure {
     margin-block-start: 1em;
@@ -70,17 +71,14 @@ figure {
 }
 
 .starrating{
-  height: 12px;
+  height: 18px;
   text-align: left;
 }
 
 .rating{
-  display: flex;
 }
 
-.rating p {
-  margin-left: 1em;
-}
+
 
 .banner{
   color: #484848;
@@ -143,19 +141,42 @@ figure {
 }
 
 .appdescriptiontext {
-  padding-left: 28px;
-    padding-top: 5px;
-
+  max-width: 100%;
+  display: inline-block;
+  padding-top: 5px;
   text-align: left;
+  padding-left: 20px;
+
 }
+
+.testcard {
+  border-style: none;
+
+}
+
+
 
 .contentcontainer{
-  display: inline-flex;
+  /* display: inline-flex; */
   margin-top: 30px;
-  width: 100%;
-  margin: auto;
-  padding: 3%;
+  width: 98%;
+  /* container-type: inline-size; */
+  /* container-name: postcard; */
+
 }
+
+@container (min-width: 700px) {
+  .testcard {
+
+    
+  }
+  .testcard .appdescriptiontext{
+
+
+  }
+ 
+}
+
 
 .appstoretitle{
    letter-spacing: .027em;
