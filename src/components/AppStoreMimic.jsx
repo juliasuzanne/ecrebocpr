@@ -60,8 +60,18 @@ export function AppStoreMimic() {
             </div>
           </div>
 
-          <br></br>
           <hr></hr>
+          <div>
+            <h5 className="appstoretitle" id="mmtitle">
+              Screenshots
+            </h5>
+            <div className="screenshotcontainer">
+              <img
+                className="screenshots"
+                src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1709694388/phone_ovetmu.png"
+              />
+            </div>
+          </div>
         </div>
       </div>
       <Footer></Footer>

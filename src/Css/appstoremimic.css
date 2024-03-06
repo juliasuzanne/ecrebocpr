@@ -58,6 +58,8 @@
 .appstorebutton {
  display: flex;
   width: 100%;
+  float: right;
+  max-width: 350px;
   padding-bottom: 4em;
   /* border-color: rgb(213, 210, 210);
   border-style: solid;
@@ -101,6 +103,20 @@ figure {
   margin: auto;
   width: 100%;
 }
+
+
+.screenshotcontainer{
+  height: 40vh;
+  min-height: 400px;
+  overflow-x: scroll;
+  width: 100%;
+  margin: 0 auto;
+}
+.screenshots{
+  height: 100%;
+
+}
+
 
 .inline-list__item{
   list-style: none;
