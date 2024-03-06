@@ -39,7 +39,7 @@ export function AppStoreMimic() {
               </div>
               <div className="col">
                 <div className="appdescriptiontext">
-                  <h5 className="appstoretitle">
+                  <h5 className="appstoretitle" id="mmtitle">
                     Modern Markets <button className="ratingbutton"> 4+ </button>
                   </h5>
 
