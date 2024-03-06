@@ -1,0 +1,104 @@
+
+
+.engageborder{
+  background-color:rgb(40,43,74);
+  min-width: 100%;
+  min-height: 100vh;
+}
+
+#engagecontainer{
+  font-family: sans-serif;
+
+  width: 90%;
+  margin: auto;
+  min-height: 98vh;
+  background-color: white;
+
+}
+
+.mmnavbar{
+  height: 10vh;
+
+  margin: auto;
+  background-color: rgb(16, 75, 27);
+}
+
+.engagelogo{
+  height: 8vh;
+  float: left;
+  padding-left: 1em;
+}
+
+
+.fakesearch{
+  width: 40%;
+  border-radius: 20px;
+  border-style: none;
+  float: left;
+ 
+}
+
+.inputsearch {
+  padding: 20px;
+  padding-left: 150px;
+}
+
+
+#strikethrough{
+  font-family: sans-serif;
+
+  text-decoration: line-through;
+}
+.checkbox {
+  
+  background: #ffffff;
+}
+
+
+h1{
+  padding: 5vh;
+
+}
+.engagedescription{
+  font-family: sans-serif;
+
+  color: rgb(0, 0, 0);
+  padding-bottom: 5vh;
+}
+
+.engageitemcontainer {
+  font-family: sans-serif;
+
+  /* background-color: rgb(175, 211, 182); */
+
+  width: 80%;
+  border-radius: 10px;    
+  height: 22vh;
+  margin: auto;
+  padding: 1vh;
+}
+
+.item{
+  font-family: sans-serif;
+
+  padding: .5em;
+  display: block;
+}
+
+.itemcontainer {
+  padding: 2em;
+  width: 90%;
+  margin: auto;
+}
+
+.itemimage {
+  width: 15vh;
+  float: left;
+}
+
+.itemtitle{
+  font-family: sans-serif;
+
+  float: left;
+  font-size: 2vw;
+}

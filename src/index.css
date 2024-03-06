@@ -45,10 +45,15 @@ canvas {
   
 }
 
-.riveBox{
-  width: 95%;
-  height: 150vh;
+#QR {
+}
 
+/* .rivecontainer{
+  height: 100%;
+} */
+
+.riveBox{
+  height: 150vh;
   margin: auto;
   padding-right: 4vw;
 }
@@ -106,6 +111,7 @@ button {
   padding-top: 25px;
   font-family: monaco;
   font-size: 18px;
+  
 }
 
 .externalpagedescriptionlink{

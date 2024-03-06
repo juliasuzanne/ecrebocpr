@@ -5,8 +5,8 @@ export function GoToRx() {
     <div className="rxborder">
       <div id="externalpagebackground">
         <p className="externalpagedescription">
-          Existing retail loyalty app users who are known to fill prescriptions with the retailer are sent to a page in
-          the retailer’s app explaining a new, time and money-saving pharmacy feature.
+          Simulates sending a known pharmacy customer to a page in the retailer’s app explaining a new app feature that
+          saves time and money at the pharmacy.
         </p>
         <br></br>
         <a className="externalpagedescriptionlink" href="/">
@@ -20,7 +20,7 @@ export function GoToRx() {
           <div className="navbarimage">
             <img
               className="mmlogo"
-              src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1709349060/mmlogolight_mhgfb4.png"
+              src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1709701300/mmlogowhite_ik707g.png"
             ></img>
           </div>
           <li className="navbartitle"> MODERN MARKETS </li>

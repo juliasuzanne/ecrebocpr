@@ -1,5 +1,5 @@
 import { useRive, EventType, RiveEventType } from "@rive-app/react-canvas";
-import { useCallback, useEffect } from "react";
+import { useCallback, useEffect, useRef } from "react";
 
 export function RiveEvents() {
   const { rive, RiveComponent } = useRive({
@@ -7,10 +7,13 @@ export function RiveEvents() {
     stateMachines: "State Machine 1",
     autoPlay: "false",
   });
+  const myRef = useRef(null);
+  const executeScroll = () => myRef.current.scrollIntoView();
 
   const onRiveEventReceived = (riveEvent) => {
     const eventData = riveEvent.data;
     const eventProperties = eventData.properties;
+
     if (eventData.type === RiveEventType.General) {
       console.log("Event name", eventData.name);
       if (eventData.name == "PlaySound") {
@@ -31,6 +34,7 @@ export function RiveEvents() {
         window.open("/engage", "_self");
       } else if (eventData.name == "GoToConversion") {
         window.open("/digital_conversion", "_self");
+      } else if (eventData.name == "EndAnimation") {
       }
     }
   };
@@ -48,7 +52,9 @@ export function RiveEvents() {
       <div className="clicktopadding">
         <span className="clickto">See Clickable Paper Receipts in Action: </span>
       </div>
-      <RiveComponent className="riveBox" onMouseEnter={() => rive && rive.play()} />
+      <div className="rivecontainer">
+        <RiveComponent className="riveBox" onMouseEnter={() => rive && rive.play()} />
+      </div>
     </div>
   );
 }

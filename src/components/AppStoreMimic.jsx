@@ -6,8 +6,8 @@ export function AppStoreMimic() {
       <div id="appstorecontainer">
         <div id="externalpagebackground">
           <p className="externalpagedescription">
-            Existing loyalty club members who have yet to download the retailer’s loyalty app are sent directly to the
-            retailer’s App Store page where they can quickly install the retailer’s loyalty app.{" "}
+            Simulates sending an existing loyalty club member who has not yet downloaded the loyalty app to the
+            retailer’s App Store page where they can install the app.
           </p>
           <br></br>
           <a className="externalpagedescriptionlink" href="/">
@@ -34,7 +34,7 @@ export function AppStoreMimic() {
               <div className="col">
                 <img
                   className="appstorebutton"
-                  src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1709349812/mmlogonewcolorapp_a4zd6s.png"
+                  src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1709701300/mmlogobuttonwhite_pt1vad.png"
                 />
               </div>
               <div className="col">

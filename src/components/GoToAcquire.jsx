@@ -9,8 +9,8 @@ export function GoToAcquire() {
       <div id="appstorecontainer">
         <div id="externalpagebackground">
           <p className="externalpagedescription">
-            Existing loyalty club members who have yet to download the retailer’s loyalty app are sent directly to the
-            retailer’s App Store page where they can quickly install the retailer’s loyalty app.{" "}
+            Simulates sending a potentially new loyalty club member to the retailer’s App Store page where they can
+            install the app and join the loyalty program.
           </p>
           <br></br>
           <a className="externalpagedescriptionlink" href="/">
@@ -36,7 +36,7 @@ export function GoToAcquire() {
             <div className="contentcontainer">
               <img
                 className="appstorebutton"
-                src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1709435653/mmlogobutton_t6xprw.png"
+                src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1709701300/mmlogobuttonwhite_pt1vad.png"
               />
               <div className="appdescriptiontext">
                 <h5 className="appstoretitle">
