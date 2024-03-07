@@ -65,12 +65,25 @@ h1{
 }
 
 @media screen and (max-width: 10092px){
+  .titlemmrewardsimage{
+    height: 20vh;
+    margin: auto;
+    padding-top: 1vw;
+    padding-bottom: 2vw;
   
+  }
   
 }
 
-@media screen and (max-width: 768px){
-
+@media screen and (max-width: 468px){
+  .titlemmrewardsimage{
+    height: 10vh;
+    margin: auto;
+    padding-top: 1vw;
+    padding-bottom: 2vw;
+  
+  }
+  
   
 
 }
@@ -110,6 +123,7 @@ h1{
   border-radius: 10px;    
   margin: auto;
   padding: 1vh;
+  padding-top: 0;
   display: flex;
   flex-wrap: wrap;
 }
@@ -155,7 +169,7 @@ font-size: 3.4vh;
 }
 
 .titlemmrewardstext{
-  font-size: 4vw;
+  font-size: clamp(4vh, 12px, 90px);
 margin:auto;
   font-family: georgia, sans-serif;
   font-weight: bold;
@@ -163,7 +177,7 @@ margin:auto;
 }
 
 .titlemmrewardsimage{
-  height: 10vw;
+  height: 10vh;
   margin: auto;
   padding-top: 1vw;
   padding-bottom: 2vw;
