@@ -5,7 +5,11 @@ export function ItemContainer(props) {
     <div className="item">
       <hr></hr>
       <div className="engageitemcontainer">
-        <input className="checkbox" type="checkbox" defaultChecked="true" />
+        <div className="form-group">
+          {" "}
+          <input className="checkbox" type="checkbox" defaultChecked="true" />
+          <label className="hiddenlabel">x</label>
+        </div>
         <div className="col-sm-6 col-md-3 col-lg-3">
           <img className="col-sm-4 itemimage" src={props.image}></img>
         </div>
