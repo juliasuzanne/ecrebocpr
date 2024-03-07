@@ -211,7 +211,7 @@ h1{
 
 
 .engageitemcontainer {
-  font-family: sans-serif;
+  font-family: "Gilroy-Regular";
   background-color: rgb(255, 255, 255); 
   width: 100%;
   border-radius: 10px;    
@@ -225,7 +225,7 @@ h1{
 
 
 .item{
-  font-family: sans-serif;
+  font-family: "Gilroy-Regular";
   height: auto;
   display: block;
 }
@@ -245,7 +245,7 @@ h1{
 
 
 .itemtitle{
-  font-family: sans-serif;
+  font-family: "Gilroy-Regular";
   font-size: 2vh;
   margin: 1vw;
 }
@@ -294,6 +294,7 @@ font-size: 3.4vh;
 #engagehead{
 font-size: clamp(2.2vh, 20px, 5vw);
 width: 90%;
+font-family: "PulpDisplay-SemiBold";
 }
 
 #saving{
