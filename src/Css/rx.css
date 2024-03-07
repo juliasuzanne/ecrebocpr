@@ -22,7 +22,7 @@
     min-height: 20vh;
     background-image: url("https://res.cloudinary.com/dytb4ayqj/image/upload/v1709836960/AdobeStock_136772134_nyxkyy.jpg");
     background-size: cover;
-    background-position-x: -450px;
+    background-position-x: -100px;
     background-repeat: no-repeat;
     display:flex;
   }
@@ -40,15 +40,41 @@
     width: 90%;
     margin:auto;
   }
+
+
+  .listbackground{
+    background-image: url("https://res.cloudinary.com/dytb4ayqj/image/upload/v1709845230/AdobeStock_303740855_pxwick_bk14gj.png");
+     background-size: cover;
+     background-repeat: no-repeat;
+     height: 110%;
+     width: 110%;
+     padding: 50px;
+     background-position-x: -50px;
+  }
+
+  .rxmainlist {
+    font-size: 1.2vw;
+    display:inline-block;
+  }
+  
+  
+  .rxsublist {
+    list-style: square;
+    font-size: 1.2vw;
+  
+  }
   
 }
 
 
+.listtextonly{
+  max-width: 50%;
+}
 
 @media screen and (max-width: 768px){
   .rxbackground{
-  
     background-position-x: 0px;
+    background-size: cover;
   
   }
   .rxtitle{
@@ -64,12 +90,36 @@
     width: 90%;
     margin:auto;
   }
+
+  .listbackground{
+    
+     background-size: contain;
+     background-repeat: no-repeat;
+     height: 110%;
+     width: 110%;
+     padding: 50px;
+     background-position-x: 110px;
+  }
+
+  .rxmainlist {
+    font-size: 2vw;
+    display:inline-block;
+    
+  }
+  
+  
+  .rxsublist {
+    list-style: square;
+    font-size: 2vw;
+  
+  }
+  
   
 }
 
 
 .rxrow {
-  width: 100%;
+  width: 110%;
 }
 
 .rxlist {
@@ -105,19 +155,7 @@ ul {
 }
 
 
-.rxmainlist {
-  padding: 50px;
-  font-size: 2vw;
-  display:inline-block;
-  
-}
 
-
-.rxsublist {
-  list-style: square;
-  font-size: 2vw;
-
-}
 
 .rxactivate{
   margin-top: 5vh;

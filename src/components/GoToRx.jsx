@@ -31,23 +31,26 @@ export function GoToRx() {
           <div className="container.fluid rxlist">
             <div className="row rxrow">
               <div className="col-sm-12 col-md-6 rxbackground"></div>
-
               <ul className="col-sm-12 col-md-6 rxmainlist">
-                <li>Place orders for prescriptions (for pickup or delivery)</li>
-                <li> Receive notifications when prescriptions are filled</li>
-                <li>Keep track of all your prescriptions and refills</li>
-                <li> Upload and update insurance info</li>
-                <li>Safely and securely see all your prescription info in one place:</li>
-                <ul className="rxsublist">
-                  <li>Dosages</li>
-                  <li>Medication guidelines</li>
-                  <li> Interaction warnings</li>
-                </ul>
-                <li> Even set reminders to take pills</li>
-                <li> And, enjoy 2X MMRewards RxLink now!</li>
-                <li className="activatebutton">
-                  <button className="rxactivate">Activate Now</button>
-                </li>
+                <div className="listbackground">
+                  <div className="listtextonly">
+                    <li>Place orders for prescriptions (for pickup or delivery)</li>
+                    <li> Receive notifications when prescriptions are filled</li>
+                    <li>Keep track of all your prescriptions and refills</li>
+                    <li> Upload and update insurance info</li>
+                    <li>Safely and securely see all your prescription info in one place:</li>
+                    <ul className="rxsublist">
+                      <li>Dosages</li>
+                      <li>Medication guidelines</li>
+                      <li> Interaction warnings</li>
+                    </ul>
+                    <li> Even set reminders to take pills</li>
+                    <li> And, enjoy 2X MMRewards RxLink now!</li>
+                    <li className="activatebutton">
+                      <button className="rxactivate">Activate Now</button>
+                    </li>
+                  </div>
+                </div>
               </ul>
             </div>
           </div>
