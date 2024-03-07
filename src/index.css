@@ -327,3 +327,9 @@ text-align: left;
   src: local("Gilroy-Regular"),
   url("/Gilroy-Regular.ttf") format("truetype");
 }
+
+@font-face {
+  font-family: "Corda";   /*Can be any text*/
+  src: local("Corda"),
+  url("/Corda.ttf") format("truetype");
+}

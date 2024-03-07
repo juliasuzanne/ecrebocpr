@@ -2,88 +2,111 @@
   width: 90%;
   min-height: 80vh;
   margin: auto;
+  font-family: "Gilroy-Regular";
   background-color: rgb(255, 255, 255);
 }
 
-
-.rxborder{
-  background-color:rgb(40,43,74);
+.rxcontentcontainer{
+  width: 100%;
+  min-height: 80vh;
+  font-family: "Gilroy-Regular";
+  background-color: rgb(255, 255, 255);
 }
 
-/* .navbar-rx{
-  background-color: 
-  rgb(24, 66, 37);
-} */
-
-.mmlogo{
-  float: center;
-  height: 60px;
-  padding-left: 30px;
+.rxrow {
+  width:100%;
 }
 
-.navbar-items{
+.rxlist {
+display: inline-flex;
+width: 97.25%;
 }
 
-.refillingthem{
+.rxtitle{
+  font-family:"PulpDisplay-SemiBold", Georgia;
+  font-size: 7vw;
+}
+
+.rxsubtitle{
+  font-family:"Corda";
+  font-size: 2.5vw;
+  padding-bottom: 5vh;
+  margin-bottom: 0;
+  width: 90%;
+  margin:auto;
+}
+
+ul {
+  font-size: 2.3vh;
+  float: top;
   text-align: left;
-  font-size: 2vh;
-}
-.allrxitems{
-  font-size: 1.1vh;;
-  text-align: left;
-  margin: auto;
-  padding: 30px;
-}
-.pharmacytext{
-  background-color: rgb(239,218,202);
-  margin-left:2%;
-  margin-top: 10%;
-  border-radius: 10px;
-  font-size: 20px;
-  color: rgb(24,66,37);
-  font-family: sans-serif;
-  padding: 20px;
-  top: 50%;
-  padding-bottom: 0;
+  list-style: circle;
+  align-items: center;
+  margin: 0 auto;
+  padding: auto;
+
 }
 
-/* .pharmacist{
-  background-image: url("https://res.cloudinary.com/dytb4ayqj/image/upload/v1709352241/AdobeStock_377668296_b7vwrx.jpg");
-  height: auto;
-  background-size: cover;
-  background-position-x: 0px;
+.rxheader{
+  background-color: rgb(248,247,245);
+  width: 100%;
+  padding: auto;
+  background-image: url("https://res.cloudinary.com/dytb4ayqj/image/upload/v1709839633/AdobeStock_100459285_urvd4m.png");
+  background-size: 50%;
   background-repeat: no-repeat;
-
-
-
-} */
-.navbartitle{
-  font-family: Helvetica;
-  margin-top: 40px;
-  font-size: 25px;
-  font-weight: normal;
-  letter-spacing:5.5px;
-  text-decoration: none;
-  list-style: none;
-  padding: 10px;
-  color: rgb(239,218,202);
-}
-
-.navbar-item{
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-style: oblique;
-  font-size: 25px;
-  text-decoration: none;
-  list-style: none;
-  padding: 10px;
-  color: rgb(239,218,202);
+  background-position-x: 54vw;
+  background-position-y: 6vh;
 
 }
 
-.bodyimage {
-  background-image: url("https://res.cloudinary.com/dytb4ayqj/image/upload/v1709349538/grocery_sfh8ho.png");
-  height: 60vh;
+
+.rxmainlist {
+  padding: 50px;
+  font-size: 2vw;
+  display:inline-block;
+
+
+}
+
+.rxbackground{
+  padding: 0;
+  margin: 0;
+  background-image: url("https://res.cloudinary.com/dytb4ayqj/image/upload/v1709836960/AdobeStock_136772134_nyxkyy.jpg");
   background-size: cover;
+  background-position-x: -400px;
+
   background-repeat: no-repeat;
-  
+  display:flex;
+}
+
+.rxsublist {
+  list-style: square;
+  font-size: 2vw;
+
+}
+
+.rxactivate{
+  margin-top: 5vh;
+  font-family: "PulpDisplay-SemiBold";
+  color: white;
+  padding: 10px;
+  margin-bottom: 5vh;
+  border-radius: 30px;
+  border: 2px solid rgb(4, 65, 4);
+  background-color: rgb(4, 65, 4);
+}
+
+.rxactivate:hover{
+  font-family: "PulpDisplay-SemiBold";
+  background-color: white;
+    border: 2px solid rgb(4, 65, 4);
+    color:  rgb(4, 65, 4);
+  padding: 10px;
+  margin-bottom: 5vh;
+  border-radius: 30px;
+}
+
+.activatebutton {
+  list-style: none;
+  float: right;
 }

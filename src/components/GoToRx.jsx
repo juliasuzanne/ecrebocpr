@@ -19,29 +19,38 @@ export function GoToRx() {
 
       <div className="rxcontainer">
         <MMNavbar></MMNavbar>
-        <div className="rxcontainer">
-          <h1>Introducing MMRewards RxLink</h1>
-          <p>
-            We hear you. Ordering prescriptions can be a real hassle. And, re-filling them in-store, or over the phone,
-            is hard too. Our new MMRewards RxLink feature makes everything pharmacy fast and easy. Now you can use the
-            MMRewards app to:
-          </p>
+        <div className="rxcontentcontainer">
+          <div className="rxheader">
+            <h1 className="rxtitle">Introducing MMRewards RxLink</h1>
+            <p className="rxsubtitle">
+              We hear you. Ordering prescriptions can be a real hassle. And, re-filling them in-store, or over the
+              phone, is hard too. Our new MMRewards RxLink feature makes everything pharmacy fast and easy. Now you can
+              use the MMRewards app to:
+            </p>
+          </div>
+          <div className="container.fluid rxlist">
+            <div className="row rxrow">
+              <div className="col-sm-4 col-md-6 rxbackground"></div>
 
-          <ul>
-            <li>Place orders for prescriptions (for pickup or delivery)</li>
-            <li> Receive notifications when prescriptions are filled</li>
-            <li>Keep track of all your prescriptions and refills</li>
-            <li> Upload and update insurance info</li>
-            <li>Safely and securely see all your prescription info in one place:</li>
-            <ul>
-              <li>Dosages</li>
-              <li>Medication guidelines</li>
-              <li> Interaction warnings</li>
-            </ul>
-            <li> Even set reminders to take pills</li>
-            <li> And, enjoy 2X MMRewards RxLink now!</li>
-          </ul>
-          <button>Activate Now</button>
+              <ul className="col-sm-8 col-md-6 rxmainlist">
+                <li>Place orders for prescriptions (for pickup or delivery)</li>
+                <li> Receive notifications when prescriptions are filled</li>
+                <li>Keep track of all your prescriptions and refills</li>
+                <li> Upload and update insurance info</li>
+                <li>Safely and securely see all your prescription info in one place:</li>
+                <ul className="rxsublist">
+                  <li>Dosages</li>
+                  <li>Medication guidelines</li>
+                  <li> Interaction warnings</li>
+                </ul>
+                <li> Even set reminders to take pills</li>
+                <li> And, enjoy 2X MMRewards RxLink now!</li>
+                <li className="activatebutton">
+                  <button className="rxactivate">Activate Now</button>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
       <Footer></Footer>
