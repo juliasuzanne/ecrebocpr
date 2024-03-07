@@ -7,6 +7,7 @@ export function ItemContainer(props) {
       <div className="engageitemcontainer">
         <input className="checkbox" type="checkbox" defaultChecked="true" />
         <img className="itemimage" src={props.image}></img>
+
         <div id="engageitemdescription">
           <p className="itemtitle" id="engagehead">
             {props.title} &nbsp;
@@ -24,11 +25,11 @@ export function ItemContainer(props) {
             {" "}
             Saving ${props.saving} with MMRewards!
           </p>
-          <p className="itemtitle" id="points">
-            {" "}
-            2X MMRewards {props.points} Points{" "}
-          </p>
         </div>
+        <p className="col-sm-12 itemtitle" id="points">
+          {" "}
+          2X MMRewards {props.points} Points{" "}
+        </p>
       </div>
     </div>
   );

@@ -1,0 +1,31 @@
+.mmnavbar-custom {
+  background-color: rgb(4, 51, 28);
+  display: flex;
+}
+
+.mmnav-link{
+  color:white;
+  font-family: 'NeuzeitGro-Lig', Futura;
+}
+
+#yeswraprewards{
+  flex-wrap: wrap;
+}
+#nowraprewards{
+  flex-wrap: wrap;
+}
+
+.mmnavbarimage{
+  padding: 1em;
+}
+
+.fakesearch{
+  width: 40%;
+  border-radius: 20px;
+  border-style: none;
+  float: left;
+  padding: .4rem;
+  font-size: .7em;
+  font-family: Geneva, Tahoma, sans-serif
+ 
+}

@@ -2,6 +2,7 @@ import "../Css/engage.css";
 import { Footer } from "./Footer";
 import React, { useState } from "react";
 import { ItemContainer } from "./ItemContainer";
+import { MMNavbar } from "./MMNavbar";
 
 function getDate() {
   const today = new Date();
@@ -29,19 +30,9 @@ export function GoToEngage() {
             </a>
             <br></br>
             <br></br>
-            <div className="mmnavbar">
-              <hr></hr>
-            </div>
           </div>
-          <div className="mmnavbar">
-            <img
-              className="engagelogo"
-              src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1709701300/mmlogowhite_ik707g.png"
-            ></img>
-            <div className="inputsearch">
-              <input className="fakesearch"></input>
-            </div>
-          </div>
+          <MMNavbar></MMNavbar>
+
           <div className="itemcontainer">
             <h1>Hi Suzy! Thank you for being an MMRewards Member.</h1>
             <p className="engagedescription">
