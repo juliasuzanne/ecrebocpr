@@ -308,3 +308,21 @@ text-align: left;
   content: "Placeholder still possible";
   color: gray;
 }
+
+@font-face {
+  font-family: "NeuzeitGro-Bol";   /*Can be any text*/
+  src: local("NeuzeitGro-Bol"),
+  url("/NeuzeitGro-Bol.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "PulpDisplay-SemiBold";   /*Can be any text*/
+  src: local("PulpDisplay-SemiBold"),
+  url("/PulpDisplay-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Gilroy-Regular";   /*Can be any text*/
+  src: local("Gilroy-Regular"),
+  url("/Gilroy-Regular.ttf") format("truetype");
+}

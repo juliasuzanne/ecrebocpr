@@ -18,6 +18,21 @@ html, body{
   url("/NeuzeitGro-Bol.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: "PulpDisplay-SemiBold";   /*Can be any text*/
+  src: local("PulpDisplay-SemiBold"),
+  url("/PulpDisplay-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Gilroy-Regular";   /*Can be any text*/
+  src: local("Gilroy-Regular"),
+  url("/Gilroy-Regular.ttf") format("truetype");
+}
+
+
+
+
 div {
   display: inline-flex;
 }

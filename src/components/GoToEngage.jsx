@@ -32,7 +32,7 @@ export function GoToEngage() {
             <br></br>
           </div>
           <MMNavbar></MMNavbar>
-          <div className="header">
+          <div className="mmengagetitle">
             <h1 className="col-sm-12 col-md-10 titlemmrewardstext">
               Hi Suzy!
               <br></br>
@@ -45,16 +45,18 @@ export function GoToEngage() {
               <br></br>
               <span className="titlemmrewardstext">Member.</span>
             </h1>
+            <p className="col-sm-12 col-md-10 engagedescription">
+              Below we’ve handpicked some amazing offers to help you save! Buy these items on an upcoming trip to (or
+              online order from) Modern Markets and enjoy 2X
+              <img
+                className="subtitlemmrewardsimage"
+                src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1709806046/mmrewardsblack_atffuw.png"
+              />
+              .<br></br>Your personalized offers expire on {currentDate}.
+            </p>
+            <hr></hr>
           </div>
-          <p className="col-sm-12 col-md-10 engagedescription">
-            Below we’ve handpicked some amazing offers to help you save! Buy these items on an upcoming trip to (or
-            online order from) Modern Markets and enjoy 2X
-            <img
-              className="subtitlemmrewardsimage"
-              src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1709806046/mmrewardsblack_atffuw.png"
-            />
-            .<br></br>Your personalized offers expire on {currentDate}.
-          </p>
+
           <div className="itemcontainer">
             <ItemContainer
               image="https://target.scene7.com/is/image/Target/GUEST_470dfa63-5b84-4d42-a460-e6c14961a930?wid=488&hei=488&fmt=pjpeg"

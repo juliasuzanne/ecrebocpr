@@ -76,12 +76,12 @@ h1{
   .titlemmrewardstext{
     font-size: 3vw;
   margin:auto;
-    font-family: Georgia, sans-serif;
+    font-family: "PulpDisplay-SemiBold";
     font-weight: bold;
     color: rgb(24,67,37);
   }
   .engagedescription{
-    font-family: Helvetica;
+    font-family: "Gilroy-Regular";
     color: rgb(0, 0, 0);
     padding-bottom: 5vh;
     font-size: 20px;
@@ -89,7 +89,20 @@ h1{
     margin: auto;
     padding: 20px;
   }
+  .subtitlemmrewardsimage{
+    height: 4vw;
+    margin: auto;
+    padding-top: 1vw;
+    padding-bottom: .7vw;
+    padding-left: 1vw;
   
+  }
+  
+}
+
+.mmengagetitle{
+
+  background-color: rgb(248,247,245);
 }
 
 
@@ -103,19 +116,28 @@ h1{
   }
   .titlemmrewardstext{
     font-size: 4vw;
-  margin:auto;
-    font-family: Georgia, sans-serif;
+    margin:auto;
+    font-family: "PulpDisplay-SemiBold";
     font-weight: bold;
     color: rgb(24,67,37);
+    background-color: rgb(248,247,245);
+
   }
   .engagedescription{
-    font-family: Helvetica;
+    font-family: "Gilroy-Regular";
     color: rgb(0, 0, 0);
     padding-bottom: 5vh;
     font-size: 20px;
     text-align: center;
     margin: auto;
     padding: 20px;
+  }
+  .subtitlemmrewardsimage{
+    height: 5vw;
+    margin: auto;
+    padding-top: 1vw;
+    padding-bottom: .7vw;
+  
   }
   
 }
@@ -132,12 +154,12 @@ h1{
   .titlemmrewardstext{
     font-size: 22px;
   margin:auto;
-    font-family: Georgia, sans-serif;
+  font-family: "PulpDisplay-SemiBold";
     font-weight: bold;
     color: rgb(24,67,37);
   }
   .engagedescription{
-    font-family: Helvetica;
+    font-family: "Gilroy-Regular";
     color: rgb(0, 0, 0);
     font-size: clamp(1.8vw, 12px, 20px);
     text-align: center;
@@ -146,6 +168,14 @@ h1{
     width: 92%;
 
 
+  }
+
+  .subtitlemmrewardsimage{
+    height: 5vw;
+    margin: auto;
+    padding-top: 1vw;
+    padding-bottom: .7vw;
+  
   }
   
 
@@ -160,7 +190,7 @@ h1{
 
 /* 
 .engagedescription{
-  font-family: Georgia;
+  font-family: "Pulp";
   font-style: oblique;
   color: rgb(0, 0, 0);
   padding-bottom: 5vh;
@@ -171,12 +201,13 @@ h1{
 #engageitemdescription{
   display: inline;
   text-align: left;
+  
 }
 
 
 .engageitemcontainer {
   font-family: sans-serif;
-  /* background-color: rgb(175, 211, 182); */
+  background-color: rgb(255, 255, 255); */
   width: 100%;
   border-radius: 10px;    
   margin: auto;
@@ -253,13 +284,7 @@ font-size: 3.4vh;
 
 }
 
-.subtitlemmrewardsimage{
-  height: 5vw;
-  margin: auto;
-  padding-top: 1vw;
-  padding-bottom: .7vw;
 
-}
 
 #engagehead{
 font-size: clamp(2.2vh, 20px, 5vw);
@@ -283,7 +308,7 @@ input[type="checkbox"] {
   -webkit-appearance: none;
   appearance: none;
   /* For iOS < 15 to remove gradient background */
-  background-color: #ffffff;
+  background-color: rgb(248,247,245);
   /* Not removed via appearance */
   margin: 0;
 }
@@ -295,7 +320,7 @@ input[type="checkbox"]{
   color: currentColor;
   width: 1.15em;
   height: 1.15em;
-  border: 0.07em solid currentColor;
+  border: 0.02em solid currentColor;
   border-radius: 0.5em;
   transform: translateY(-0.075em);
 }
@@ -315,7 +340,7 @@ input[type="checkbox"]:before  {
   content: "";
   width: 0.65em;
   height: 0.65em;
-  transform: scale(1.2);
+  transform: scale(.5);
   transition: 120ms transform ease-in-out;
   box-shadow: inset 1em 1em var(--form-control-color);
 }
@@ -328,12 +353,13 @@ input[type="checkbox"]{
 
 input[type="checkbox"]{
   content: "";
-  width: 0.65em;
+  width: 1.1em;
   transform-origin: bottom left;
-  height: 0.65em;
-  color: #b9b9b9;
+  height: 1.1em;
+  color: rgb(164, 164, 164);
+
   transform: scale(2);
-  background-color: #ffffff;
+  background-color: rgb(248,247,245);
   /* transition: 120ms transform ease-in-out;
   box-shadow: inset 1em 1em var(--form-control-color); */
 }
@@ -341,10 +367,10 @@ input[type="checkbox"]{
 input[type="checkbox"]:checked:before {
   /* transform: scale(2); */
   background-color: #1c5800;
-  transform: scale(1);
+  transform: scale(1.5);
 
-  transform-origin: bottom left;
-  clip-path: polygon(14% 44%, 0 65%, 40% 100%, 100% 6%, 80% 0%, 43% 63%);
+  transform-origin: middle center;
+  clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
   color: #3a3a3a;
 
 

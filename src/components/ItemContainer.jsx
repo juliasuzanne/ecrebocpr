@@ -3,7 +3,6 @@ import "../Css/engage.css";
 export function ItemContainer(props) {
   return (
     <div className="item">
-      <hr></hr>
       <div className="engageitemcontainer">
         <div className="form-group">
           {" "}
@@ -50,6 +49,7 @@ export function ItemContainer(props) {
           {props.points} Points{" "}
         </span>
       </div>
+      <hr></hr>
     </div>
   );
 }
