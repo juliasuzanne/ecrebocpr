@@ -16,10 +16,7 @@ export function EmailBuddy() {
         ></img>
       </a>
       <a href="https://www.linkedin.com/company/ecrebo-limited/">
-        <img
-          className="socialLink"
-          src="https://cdn.freebiesupply.com/logos/large/2x/linkedin-icon-1-logo-svg-vector.svg"
-        ></img>
+        <img className="socialLink" src="/linkedinicon.svg"></img>
       </a>
     </div>
   );

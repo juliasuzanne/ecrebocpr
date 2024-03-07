@@ -194,6 +194,14 @@ html, body{
 .socialLink {
   height: 4vh;
   padding: .4em;
+  filter: invert(40%) sepia(19%) saturate(4076%) hue-rotate(228deg) brightness(88%) contrast(119%);
+
+}
+
+.socialLink:hover {
+  height: 4vh;
+  padding: .4em;
+  filter: invert(40%) sepia(19%) saturate(4076%) hue-rotate(928deg) brightness(58%) contrast(119%);
 
 }
 
