@@ -6,6 +6,7 @@ import { GoToRx } from "./components/GoToRx";
 import { AppStoreMimic } from "./components/AppStoreMimic";
 import { GoToAcquire } from "./components/GoToAcquire";
 import { Footer } from "./components/Footer";
+import { GoToDigital } from "./components/GoToDigital";
 
 function App() {
   return (
@@ -14,10 +15,9 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/acquire" element={<AppStoreMimic />} />
-          <Route path="testacquire" element={<GoToAcquire />} />
+          <Route path="/acquire" element={<GoToAcquire />} />
           <Route path="/engage" element={<GoToEngage />} />
-          <Route path="/digital_conversion" element={<AppStoreMimic />} />
+          <Route path="/digital_conversion" element={<GoToDigital />} />
           <Route path="/rx_link" element={<GoToRx />} />
         </Routes>
       </BrowserRouter>

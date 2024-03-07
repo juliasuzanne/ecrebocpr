@@ -1,42 +1,24 @@
 import "../Css/rx.css";
+import { MMNavbar } from "./MMNavbar";
 import { Footer } from "./Footer";
 export function GoToRx() {
   return (
     <div className="rxborder">
       <div id="externalpagebackground">
         <p className="externalpagedescription">
-          Simulates sending a known pharmacy customer to a page in the retailer’s app explaining a new app feature that
-          saves time and money at the pharmacy.
+          Simulates sending a known pharmacy customer to a page in the retailer’s app explaining a new time and
+          money-saving pharmacy feature.
         </p>
         <br></br>
         <a className="externalpagedescriptionlink" href="/">
-          Click here to go back to home page.
+          Return to home page
         </a>
         <br></br>
         <br></br>
       </div>
 
       <div className="rxcontainer">
-        <div className="mmnavbar">
-          <hr></hr>
-        </div>
-
-        <div className="mmnavbar">
-          <img
-            className="engagelogo"
-            src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1709701300/mmlogowhite_ik707g.png"
-          ></img>
-          <div className="inputsearch">
-            <input className="fakesearch"></input>
-          </div>
-        </div>
-        <nav className="navbar navbar-rx navbar-expand-lg navbar-light">
-          <div className="navbarimage"></div>
-          &nbsp; &nbsp;
-          {/* <li className="navbar-item">FAQ</li>
-          <li className="navbar-item">|</li>
-          <li className="navbar-item">Call us!</li> */}
-        </nav>
+        <MMNavbar></MMNavbar>
         <div className="rxcontainer">
           {/* <div className="pharmacist">
             <p className="pharmacytext">
