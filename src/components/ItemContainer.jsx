@@ -26,14 +26,24 @@ export function ItemContainer(props) {
 
             <p className="itemtitle" id="saving">
               {" "}
-              Saving ${props.saving} with MMRewards!
+              Saving ${props.saving} with{" "}
+              <img
+                className="savingsmmrewardsimage"
+                src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1709806045/mmrewardssaving_wrk4ew.png"
+              />{" "}
+              !
             </p>
           </div>
         </div>
-        <p className="col-sm-12 col-md-2 itemtitle" id="points">
+        <span className="col-sm-12 col-md-3 itemtitle" id="points">
           {" "}
-          2X MMRewards {props.points} Points{" "}
-        </p>
+          2X{" "}
+          <img
+            className="pointsmmrewardsimage"
+            src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1709806827/mmrewardswhite_juqwku.png"
+          />{" "}
+          {props.points} Points{" "}
+        </span>
       </div>
     </div>
   );

@@ -49,15 +49,81 @@ h1{
   padding: 5vh;
 
 }
-.engagedescription{
-  font-family: sans-serif;
 
-  color: rgb(0, 0, 0);
-  padding-bottom: 5vh;
+
+@media screen and (max-width: 10092px){
+  
+#points{
+  font-size: 2.2vh;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  padding: 20px;
+  background-color: rgb(28, 68, 28);
+  margin: auto;
+  border-radius: 10px;
+  /* border-radius: 100%; */
+  display: inline-block;
+}
+  
 }
 
+@media screen and (max-width: 768px){
+
+  
+#points{
+  font-size: 2.2vh;
+  text-align: center;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  padding: 0px;
+  background-color: rgb(28, 68, 28);
+  margin: auto;
+  border-radius: 10px;
+  /* border-radius: 100%; */
+  display: inline-block;
+}
+}
+
+@media screen and (max-width: 570px){
+
+  
+  #points{
+    font-size: 2.2vh;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    padding-left: 80px;
+    padding-right: 80px;
+
+    background-color: rgb(28, 68, 28);
+    margin: auto;
+    border-radius: 10px;
+    /* border-radius: 100%; */
+    display: inline-block;
+  }
+  }
+
+.engagedescription{
+  font-family: Helvetica;
+  color: rgb(0, 0, 0);
+  padding-bottom: 5vh;
+  font-size: clamp(1.8vw, 12px, 20px);
+  text-align: center;
+  margin: auto;
+}
+/* 
+.engagedescription{
+  font-family: Georgia;
+  font-style: oblique;
+  color: rgb(0, 0, 0);
+  padding-bottom: 5vh;
+  font-size: 2vw;
+  margin: auto;
+} */
+
 #engageitemdescription{
-  display: block;
+  display: inline;
   text-align: left;
 }
 
@@ -113,8 +179,49 @@ font-size: 3.4vh;
   text-decoration: line-through;
 }
 
+.titlemmrewardstext{
+  font-size: 4vw;
+margin:auto;
+  font-family: georgia, sans-serif;
+  font-weight: bold;
+  color: rgb(24,67,37);
+}
+
+.titlemmrewardsimage{
+  height: 10vw;
+  margin: auto;
+  padding-top: 1vw;
+  padding-bottom: 2vw;
+
+}
+
+
+.pointsmmrewardsimage{
+  height: 5vh;
+  padding-top: 1vh;
+  padding-bottom: .5vh;
+
+}
+
+.savingsmmrewardsimage{
+  height:4.8vh;
+  padding-top: 1vh;
+  padding-bottom: .9vh;
+  padding-left: 0;
+  margin-left: 0;
+
+}
+
+.subtitlemmrewardsimage{
+  height: 5vw;
+  margin: auto;
+  padding-top: 1vw;
+  padding-bottom: .7vw;
+
+}
+
 #engagehead{
-font-size: 2.2vh;
+font-size: clamp(2.2vh, 20px, 5vw);
 width: 90%;
 }
 
@@ -123,12 +230,4 @@ width: 90%;
   color: green;
   font-size: 2vh;
 
-}
-
-#points{
-  font-size: 3vh;
-  font-weight: bold;
-  color: rgb(28, 68, 28);
-  margin: auto;
-  display: inline-block;
 }

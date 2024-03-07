@@ -34,11 +34,24 @@ export function GoToEngage() {
           <MMNavbar></MMNavbar>
 
           <div className="itemcontainer">
-            <h1>Hi Suzy! Thank you for being an MMRewards Member.</h1>
-            <p className="engagedescription">
-              Below we’ve handpicked some amazing offers to help you save! Buy these items on an upcoming trip to (or
-              online order from) Modern Markets and enjoy 2X MMRewards. Your personalized offers expire on {currentDate}
-              .
+            <h1 className="col-sm-12 col-md-10 titlemmrewardstext">
+              Hi Suzy!
+              <br></br>
+              <span className="titlemmrewardstext">Thank you for being an </span>
+              <img
+                className="titlemmrewardsimage"
+                src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1709804425/mmrewardslogo_ziria5.png"
+              />{" "}
+              <span className="titlemmrewardstext">Member.</span>
+            </h1>
+            <p className="col-sm-12 col-md-10 engagedescription">
+              Below we’ve handpicked some amazing offers to help you save! <br></br>Buy these items on an upcoming trip
+              to (or online order from) Modern Markets and enjoy 2X{" "}
+              <img
+                className="subtitlemmrewardsimage"
+                src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1709806046/mmrewardsblack_atffuw.png"
+              />{" "}
+              <br></br>Your personalized offers expire on {currentDate}.
             </p>
 
             <ItemContainer
