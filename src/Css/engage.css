@@ -372,7 +372,7 @@ input[type="checkbox"]{
 
 input[type="checkbox"]:checked:before {
   /* transform: scale(2); */
-  background-color: #1c5800;
+  background-color: rgb(24,67,37);
   transform: scale(1.8);
 
   transform-origin: middle center;
@@ -380,4 +380,20 @@ input[type="checkbox"]:checked:before {
   color: #3a3a3a;
 
 
+}
+
+.engagebrowsemore{
+  font-family: "PulpDisplay-SemiBold";
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  margin-bottom: 5vh;
+  border-radius: 30px;
+}
+
+.engagebrowsemore:hover{
+  font-family: "PulpDisplay-SemiBold";
+  color: rgb(0,128,1);
+  padding: 10px;
+  margin-bottom: 5vh;
+  border-radius: 30px;
 }
