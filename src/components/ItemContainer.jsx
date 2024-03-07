@@ -30,7 +30,7 @@ export function ItemContainer(props) {
 
             <p className="itemtitle" id="saving">
               {" "}
-              Saving ${props.saving} with{" "}
+              You're saving ${props.saving} with{" "}
               <img
                 className="savingsmmrewardsimage"
                 src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1709806045/mmrewardssaving_wrk4ew.png"

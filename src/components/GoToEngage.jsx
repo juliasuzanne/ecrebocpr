@@ -34,8 +34,7 @@ export function GoToEngage() {
           <MMNavbar></MMNavbar>
           <div className="mmengagetitle">
             <h1 className="col-sm-12 col-md-10 titlemmrewardstext">
-              Hi Suzy!
-              <br></br>
+              Hi Sofia!<br></br>
               <span className="titlemmrewardstext">Thank you for being an </span>
               <br></br>
               <img
