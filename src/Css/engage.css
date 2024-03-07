@@ -73,6 +73,13 @@ h1{
     padding-bottom: 2vw;
   
   }
+  .titlemmrewardstext{
+    font-size: 3vw;
+  margin:auto;
+    font-family: Georgia, sans-serif;
+    font-weight: bold;
+    color: rgb(24,67,37);
+  }
   
 }
 
@@ -85,6 +92,13 @@ h1{
     padding-bottom: 2vw;
   
   }
+  .titlemmrewardstext{
+    font-size: 4vw;
+  margin:auto;
+    font-family: Georgia, sans-serif;
+    font-weight: bold;
+    color: rgb(24,67,37);
+  }
   
 }
 
@@ -95,6 +109,14 @@ h1{
     padding-top: 1vw;
     padding-bottom: 2vw;
   
+  }
+
+  .titlemmrewardstext{
+    font-size: 5vw;
+  margin:auto;
+    font-family: Georgia, sans-serif;
+    font-weight: bold;
+    color: rgb(24,67,37);
   }
   
   
@@ -114,6 +136,8 @@ h1{
   margin: auto;
   padding: 20px;
 }
+
+
 /* 
 .engagedescription{
   font-family: Georgia;
@@ -182,13 +206,7 @@ font-size: 3.4vh;
   text-decoration: line-through;
 }
 
-.titlemmrewardstext{
-  font-size: 4vw;
-margin:auto;
-  font-family: georgia, sans-serif;
-  font-weight: bold;
-  color: rgb(24,67,37);
-}
+
 /* 
 .titlemmrewardsimage{
   height: 8vw;
