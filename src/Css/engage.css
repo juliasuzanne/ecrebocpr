@@ -99,6 +99,7 @@ h1{
   font-size: clamp(1.8vw, 12px, 20px);
   text-align: center;
   margin: auto;
+  padding: 20px;
 }
 /* 
 .engagedescription{
@@ -169,7 +170,7 @@ font-size: 3.4vh;
 }
 
 .titlemmrewardstext{
-  font-size: clamp(4vh, 12px, 90px);
+  font-size: 4vw;
 margin:auto;
   font-family: georgia, sans-serif;
   font-weight: bold;
@@ -177,7 +178,7 @@ margin:auto;
 }
 
 .titlemmrewardsimage{
-  height: 10vw;
+  height: 8vw;
   margin: auto;
   padding-top: 1vw;
   padding-bottom: 2vw;
