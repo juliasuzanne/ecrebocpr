@@ -2,9 +2,6 @@ import "../Css/appstoremimic.css";
 import "../Css/acquire.css";
 import "../Css/appstoremimic.css";
 import { AppStoreMimic } from "./AppStoreMimic";
-import { MMNavbar } from "./MMNavbar";
-
-import { Footer } from "./Footer";
 
 export function GoToAcquire() {
   return (
