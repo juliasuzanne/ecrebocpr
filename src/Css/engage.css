@@ -101,7 +101,11 @@ h1{
 }
 
 .mmengagetitle{
-
+  background-image: url("https://res.cloudinary.com/dytb4ayqj/image/upload/v1709814180/AdobeStock_612355880_uiawgb.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: 45vw;
+  background-position-y: -15vh;
   background-color: rgb(248,247,245);
 }
 
@@ -120,7 +124,6 @@ h1{
     font-family: "PulpDisplay-SemiBold";
     font-weight: bold;
     color: rgb(24,67,37);
-    background-color: rgb(248,247,245);
 
   }
   .engagedescription{
@@ -139,6 +142,7 @@ h1{
     padding-bottom: .7vw;
   
   }
+
   
 }
 
@@ -150,6 +154,7 @@ h1{
     padding-bottom: 2vw;
   
   }
+
 
   .titlemmrewardstext{
     font-size: 22px;
@@ -207,7 +212,7 @@ h1{
 
 .engageitemcontainer {
   font-family: sans-serif;
-  background-color: rgb(255, 255, 255); */
+  background-color: rgb(255, 255, 255); 
   width: 100%;
   border-radius: 10px;    
   margin: auto;
@@ -321,7 +326,7 @@ input[type="checkbox"]{
   width: 1.15em;
   height: 1.15em;
   border: 0.02em solid currentColor;
-  border-radius: 0.5em;
+  border-radius: 100%;
   transform: translateY(-0.075em);
 }
 
@@ -367,7 +372,7 @@ input[type="checkbox"]{
 input[type="checkbox"]:checked:before {
   /* transform: scale(2); */
   background-color: #1c5800;
-  transform: scale(1.5);
+  transform: scale(1.8);
 
   transform-origin: middle center;
   clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
