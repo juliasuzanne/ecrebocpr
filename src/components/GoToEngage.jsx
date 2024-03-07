@@ -1,6 +1,7 @@
 import "../Css/engage.css";
 import { Footer } from "./Footer";
 import React, { useState } from "react";
+import { ItemContainer } from "./ItemContainer";
 
 function getDate() {
   const today = new Date();
@@ -48,42 +49,51 @@ export function GoToEngage() {
               online order from) Modern Markets and enjoy 2X MMRewards. Your personalized offers expire on {currentDate}
               .
             </p>
-            <hr></hr>
 
-            <div className="item">
-              <div className="engageitemcontainer">
-                <img
-                  className="itemimage"
-                  src="https://storage.googleapis.com/images-fol-prd-83dd8b8.fol.prd.v8.commerce.mi9cloud.com/product-images/zoom/4800126570.jpg"
-                ></img>
-                <p className="itemtitle">Best Foods Real Mayonnaise</p>
-                <p className="itemtitle">48 Fl Oz</p>
-                <p className="itemtitle"> MMRewards Price $9.29 </p>
-                <p className="itemtitle" id="strikethrough">
-                  {" "}
-                  $10.99{" "}
-                </p>
-                <input className="checkbox" type="checkbox" />
-              </div>
-              <hr></hr>
-            </div>
+            <ItemContainer
+              image="https://target.scene7.com/is/image/Target/GUEST_470dfa63-5b84-4d42-a460-e6c14961a930?wid=488&hei=488&fmt=pjpeg"
+              title="Best Foods Real Mayonnaise - 48 Fl Oz"
+              newprice="9.29"
+              oldprice="10.99"
+              saving="1.70"
+              points="18"
+            ></ItemContainer>
 
-            <div className="item">
-              <div className="engageitemcontainer">
-                <img
-                  className="itemimage"
-                  src="https://images.albertsons-media.com/is/image/ABS/960021862-ECOM?$ng-ecom-pdp-desktop$&defaultImage=Not_Available"
-                ></img>
-                <p className="itemtitle">Mandarins Clementine Prepacked Bag - 3 Lb</p>
-                <p className="itemtitle"> MMRewards Price $4.99 </p>
-                <p className="itemtitle" id="strikethrough">
-                  {" "}
-                  $5.99{" "}
-                </p>
-                <input className="checkbox" type="checkbox" />
-              </div>
-              <hr></hr>
-            </div>
+            <ItemContainer
+              image="https://m.media-amazon.com/images/S/assets.wholefoodsmarket.com/PIE/product/5a060530f6f83e41a40deab5_59231337d8a00307702fc146-produce-packaged-vegetables-fruits-mandarins.jpg"
+              title="Mandarins Clementine Prepacked Bag - 3 Lb"
+              newprice="4.99"
+              oldprice="5.99"
+              saving="1.00"
+              points="10"
+            ></ItemContainer>
+
+            <ItemContainer
+              image="https://i5.walmartimages.com/asr/0599901a-dded-4d9a-b89c-f48709b2cb73.a4dcc7e859912dc8ce6ba48ba0983d99.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF"
+              title="Grey Poupon Dijon Mustard Squeeze Bottle - 10 Oz"
+              newprice="4.99"
+              oldprice="5.99"
+              saving="1.00"
+              points="10"
+            ></ItemContainer>
+
+            <ItemContainer
+              image="https://contenthandler-raleys.fieldera.com/prod/302460/1/0/0/10546086-Main.jpg"
+              title="Whole Rotisserie Chicken Hot (Available After 10AM)"
+              newprice="8.99"
+              oldprice="9.99"
+              saving="1.00"
+              points="18"
+            ></ItemContainer>
+
+            <ItemContainer
+              image="https://pics.walgreens.com/prodimg/398349/450.jpg"
+              title="Nature Made Tumeric Curcumin 500 mg Capsules - 60 Count"
+              newprice="14.99"
+              oldprice="15.99"
+              saving="1.00"
+              points="30"
+            ></ItemContainer>
           </div>
         </div>
       </div>
