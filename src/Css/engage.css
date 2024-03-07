@@ -99,12 +99,21 @@ h1{
     font-weight: bold;
     color: rgb(24,67,37);
   }
+  .engagedescription{
+    font-family: Helvetica;
+    color: rgb(0, 0, 0);
+    padding-bottom: 5vh;
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+  }
   
 }
 
 @media screen and (max-width: 768px){
   .titlemmrewardsimage{
-    height: 7vh;
+    height: 8vh;
     margin: auto;
     padding-top: 1vw;
     padding-bottom: 2vw;
@@ -112,13 +121,23 @@ h1{
   }
 
   .titlemmrewardstext{
-    font-size: 5vw;
+    font-size: 22px;
   margin:auto;
     font-family: Georgia, sans-serif;
     font-weight: bold;
     color: rgb(24,67,37);
   }
-  
+  .engagedescription{
+    font-family: Helvetica;
+    color: rgb(0, 0, 0);
+    font-size: clamp(1.8vw, 12px, 20px);
+    text-align: center;
+    margin: auto;
+    padding: 0;
+    width: 92%;
+
+
+  }
   
 
 }
@@ -127,15 +146,7 @@ h1{
 
   }
 
-.engagedescription{
-  font-family: Helvetica;
-  color: rgb(0, 0, 0);
-  padding-bottom: 5vh;
-  font-size: clamp(1.8vw, 12px, 20px);
-  text-align: center;
-  margin: auto;
-  padding: 20px;
-}
+
 
 
 /* 
