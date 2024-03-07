@@ -66,7 +66,7 @@ h1{
 
 @media screen and (max-width: 10092px){
   .titlemmrewardsimage{
-    height: 20vh;
+    height: 12vh;
     margin: auto;
     padding-top: 1vw;
     padding-bottom: 2vw;
@@ -75,9 +75,9 @@ h1{
   
 }
 
-@media screen and (max-width: 468px){
+@media screen and (max-width: 768px){
   .titlemmrewardsimage{
-    height: 10vh;
+    height: 7vh;
     margin: auto;
     padding-top: 1vw;
     padding-bottom: 2vw;
@@ -176,14 +176,14 @@ margin:auto;
   font-weight: bold;
   color: rgb(24,67,37);
 }
-
+/* 
 .titlemmrewardsimage{
   height: 8vw;
   margin: auto;
   padding-top: 1vw;
   padding-bottom: 2vw;
 
-}
+} */
 
 
 .pointsmmrewardsimage{
