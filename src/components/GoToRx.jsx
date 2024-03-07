@@ -30,9 +30,9 @@ export function GoToRx() {
           </div>
           <div className="container.fluid rxlist">
             <div className="row rxrow">
-              <div className="col-sm-4 col-md-6 rxbackground"></div>
+              <div className="col-sm-12 col-md-6 rxbackground"></div>
 
-              <ul className="col-sm-8 col-md-6 rxmainlist">
+              <ul className="col-sm-12 col-md-6 rxmainlist">
                 <li>Place orders for prescriptions (for pickup or delivery)</li>
                 <li> Receive notifications when prescriptions are filled</li>
                 <li>Keep track of all your prescriptions and refills</li>
