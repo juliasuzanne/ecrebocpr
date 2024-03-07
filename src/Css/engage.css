@@ -277,61 +277,68 @@ width: 90%;
 
 
 /* This css is for changing checkbox to something prettier */
-/* *, *:before, *:after {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
- */
 
-
-
-
-
-
-.form-group input {
-  padding: 0;
-  height: initial;
-  width: initial;
-  margin-bottom: 0;
-  display: none;
-  cursor: pointer;
-}
-
-.form-group label {
-  position: relative;
-  cursor: pointer;
-}
-
-.form-group label:before {
-  content:'';
+input[type="checkbox"] {
+  /* Add if not using autoprefixer */
   -webkit-appearance: none;
-  background-color: transparent;
-  border: 2px solid #063322;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
-  padding: 10px;
-  display: inline-block;
-  position: relative;
-  vertical-align: middle;
-  cursor: pointer;
-  margin-right: 5px;
+  appearance: none;
+  /* For iOS < 15 to remove gradient background */
+  background-color: #ffffff;
+  /* Not removed via appearance */
+  margin: 0;
 }
 
-.hiddenlabel{
-  color:white;
+input[type="checkbox"] {
+  appearance: none;
+  margin: 0;
+  font: inherit;
+  color: currentColor;
+  width: 1.15em;
+  height: 1.15em;
+  border: 0.1em solid currentColor;
+  border-radius: 0.5em;
+  transform: translateY(-0.075em);
 }
 
-.form-group input:checked + label:after {
-  content: '';
-  display: block;
-  position: absolute;
-  top: 2px;
-  left: 9px;
-  width: 6px;
-  height: 14px;
-  border: solid #7ce322;
-  border-width: 0 2px 2px 0;
-  transform: rotate(45deg);
+.form-control + .form-control {
+  margin-top: 1em;
+}
+
+input[type="checkbox"] {
+  /* ...existing styles */
+
+  display: grid;
+  place-content: center;
+}
+
+input[type="checkbox"] {
+  content: "";
+  width: 0.65em;
+  height: 0.65em;
+  transform: scale(2);
+  transition: 120ms transform ease-in-out;
+  box-shadow: inset 1em 1em var(--form-control-color);
+}
+
+input[type="checkbox"] {
+  /* ...existing styles */
+  display: grid;
+  place-content: center;
+}
+
+input[type="checkbox"]{
+  content: "";
+  width: 0.65em;
+  height: 0.65em;
+  color: #1c5800;
+  background-color: #ffffff;
+  /* transition: 120ms transform ease-in-out; */
+  /* box-shadow: inset 1em 1em var(--form-control-color); */
+}
+
+input[type="checkbox"]:checked {
+  /* transform: scale(2); */
+  background-color: #94e070;
+  color: #1c5800;
+
 }
