@@ -81,8 +81,8 @@ h1{
     color: rgb(24,67,37);
   }
   .engagedescription{
-    font-family: "Gilroy-Regular";
-    color: rgb(0, 0, 0);
+    font-family: "Corda";
+    color: rgb(24,67,37);
     padding-bottom: 5vh;
     font-size: 20px;
     text-align: center;
@@ -127,8 +127,8 @@ h1{
 
   }
   .engagedescription{
-    font-family: "Gilroy-Regular";
-    color: rgb(0, 0, 0);
+    font-family: "Corda";
+    color: rgb(24,67,37);
     padding-bottom: 5vh;
     font-size: 20px;
     text-align: center;
@@ -164,8 +164,8 @@ h1{
     color: rgb(24,67,37);
   }
   .engagedescription{
-    font-family: "Gilroy-Regular";
-    color: rgb(0, 0, 0);
+    font-family: "Corda";
+    color: rgb(24,67,37);
     font-size: clamp(1.8vw, 12px, 20px);
     text-align: center;
     margin: auto;

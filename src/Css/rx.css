@@ -8,6 +8,7 @@
 
 .rxcontentcontainer{
   width: 100%;
+  overflow-y: hidden;
   min-height: 80vh;
   overflow-x: hidden;
   font-family: "Gilroy-Regular";
@@ -50,6 +51,7 @@
      width: 110%;
      padding: 50px;
      background-position-x: -50px;
+     overflow-y: hidden;
   }
 
   .rxmainlist {
@@ -99,6 +101,8 @@
      width: 110%;
      padding: 50px;
      background-position-x: 110px;
+     overflow-y: hidden;
+
   }
 
   .rxmainlist {
