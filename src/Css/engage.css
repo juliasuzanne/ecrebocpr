@@ -64,7 +64,20 @@ h1{
   display: inline-block;
 }
 
+
 @media screen and (max-width: 10092px){
+  .titlemmrewardsimage{
+    height: 17vh;
+    margin: auto;
+    padding-top: 1vw;
+    padding-bottom: 2vw;
+  
+  }
+  
+}
+
+
+@media screen and (max-width: 992px){
   .titlemmrewardsimage{
     height: 12vh;
     margin: auto;
