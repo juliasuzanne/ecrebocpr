@@ -28,6 +28,24 @@
     display:flex;
   }
 
+  .listmmlogo{
+    height: 3vh;
+    padding-bottom: .8vh;
+
+  }
+
+  .subtitlemmlogo{
+    height: 4.7vh;
+    padding-left: 0;
+    padding-bottom: 1.5vh;
+  }
+
+  .titlemmlogo{
+    height: 9.7vh;
+    padding-left: 0;
+    padding-bottom: 2.5vh;
+  }
+
   .rxtitle{
     font-family:"PulpDisplay-SemiBold", Georgia;
     font-size: 5vw;
@@ -66,11 +84,39 @@
   
   }
   
-}
 
 
 .listtextonly{
   max-width: 50%;
+}
+
+
+  .rxactivate{
+    margin-top: 5vh;
+    font-family: "PulpDisplay-SemiBold";
+    color: white;
+    padding: 10px;
+    margin-bottom: 5vh;
+    border-radius: 30px;
+    border: 2px solid rgb(4, 65, 4);
+    background-color: rgb(4, 65, 4);
+  }
+  
+  .rxactivate:hover{
+    font-family: "PulpDisplay-SemiBold";
+    background-color: white;
+      border: 2px solid rgb(4, 65, 4);
+      color:  rgb(4, 65, 4);
+    padding: 10px;
+    margin-bottom: 5vh;
+    border-radius: 30px;
+  }
+
+  .listmmlogo{
+    height: 2.6vh;
+    padding-bottom: .8vh;
+  
+  }
 }
 
 @media screen and (max-width: 768px){
@@ -82,6 +128,12 @@
   .rxtitle{
     font-family:"PulpDisplay-SemiBold", Georgia;
     font-size: 7vw;
+  }
+
+  .subtitlemmlogo{
+    height: 3.2vh;
+    padding-left: 0;
+    padding-bottom: .95vh;
   }
   
   .rxsubtitle{
@@ -95,18 +147,18 @@
 
   .listbackground{
     
-     background-size: contain;
+     background-size: cover;
      background-repeat: no-repeat;
      height: 110%;
      width: 110%;
      padding: 50px;
-     background-position-x: 110px;
+     background-position-x: -210px;
      overflow-y: hidden;
 
   }
 
   .rxmainlist {
-    font-size: 2vw;
+    font-size: 3vw;
     display:inline-block;
     
   }
@@ -114,7 +166,33 @@
   
   .rxsublist {
     list-style: square;
-    font-size: 2vw;
+    font-size: 3vw;
+  
+  }
+
+  .rxactivate{
+    margin-top: 5vh;
+    font-family: "PulpDisplay-SemiBold";
+    color: white;
+    padding: 7px;
+    margin-bottom: 5vh;
+    border-radius: 30px;
+    border: 2px solid rgb(4, 65, 4);
+    background-color: rgb(4, 65, 4);
+  }
+  
+  .rxactivate:hover{
+    font-family: "PulpDisplay-SemiBold";
+    background-color: white;
+      border: 2px solid rgb(4, 65, 4);
+      color:  rgb(4, 65, 4);
+    padding: 7px;
+    margin-bottom: 5vh;
+    border-radius: 30px;
+  }
+  .listmmlogo{
+    height: 3.5vh;
+    padding-bottom: 1.2vh;
   
   }
   
@@ -161,26 +239,7 @@ ul {
 
 
 
-.rxactivate{
-  margin-top: 5vh;
-  font-family: "PulpDisplay-SemiBold";
-  color: white;
-  padding: 10px;
-  margin-bottom: 5vh;
-  border-radius: 30px;
-  border: 2px solid rgb(4, 65, 4);
-  background-color: rgb(4, 65, 4);
-}
 
-.rxactivate:hover{
-  font-family: "PulpDisplay-SemiBold";
-  background-color: white;
-    border: 2px solid rgb(4, 65, 4);
-    color:  rgb(4, 65, 4);
-  padding: 10px;
-  margin-bottom: 5vh;
-  border-radius: 30px;
-}
 
 .activatebutton {
   list-style: none;

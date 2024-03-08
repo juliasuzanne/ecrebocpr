@@ -39,7 +39,7 @@ export function GoToEngage() {
               <br></br>
               <img
                 className="titlemmrewardsimage"
-                src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1709804425/mmrewardslogo_ziria5.png"
+                src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1709864928/mmrewardslogogreen_vmnzmg.png"
               />{" "}
               <br></br>
               <span className="titlemmrewardstext">Member.</span>
@@ -49,7 +49,7 @@ export function GoToEngage() {
               online order from) Modern Markets and enjoy 2X
               <img
                 className="subtitlemmrewardsimage"
-                src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1709806046/mmrewardsblack_atffuw.png"
+                src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1709864928/mmrewardslogogreen_vmnzmg.png"
               />
               .<br></br>Your personalized offers expire on {currentDate}.
             </p>

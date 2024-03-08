@@ -33,7 +33,7 @@ export function ItemContainer(props) {
               You're saving ${props.saving} with{" "}
               <img
                 className="savingsmmrewardsimage"
-                src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1709806045/mmrewardssaving_wrk4ew.png"
+                src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1709864810/mmrewardsnewlightgreen_cwppgu.png"
               />{" "}
               !
             </p>
@@ -44,7 +44,7 @@ export function ItemContainer(props) {
           2X{" "}
           <img
             className="pointsmmrewardsimage"
-            src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1709806827/mmrewardswhite_juqwku.png"
+            src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1709864810/mmrewardsgreynew_xgocnl.png"
           />{" "}
           {props.points} Points{" "}
         </span>

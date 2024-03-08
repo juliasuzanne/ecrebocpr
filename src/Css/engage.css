@@ -112,10 +112,10 @@ h1{
 
 @media screen and (max-width: 992px){
   .titlemmrewardsimage{
-    height: 12vh;
+    height: 16vh;
     margin: auto;
     padding-top: 1vw;
-    padding-bottom: 2vw;
+    padding-bottom: 0vw;
   
   }
   .titlemmrewardstext{
@@ -148,10 +148,9 @@ h1{
 
 @media screen and (max-width: 768px){
   .titlemmrewardsimage{
-    height: 8vh;
+    height: 10vh;
     margin: auto;
     padding-top: 1vw;
-    padding-bottom: 2vw;
   
   }
 
@@ -176,10 +175,9 @@ h1{
   }
 
   .subtitlemmrewardsimage{
-    height: 5vw;
+    height: 6vw;
     margin: auto;
     padding-top: 1vw;
-    padding-bottom: .7vw;
   
   }
   

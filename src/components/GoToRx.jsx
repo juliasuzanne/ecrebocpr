@@ -21,11 +21,27 @@ export function GoToRx() {
         <MMNavbar></MMNavbar>
         <div className="rxcontentcontainer">
           <div className="rxheader">
-            <h1 className="rxtitle">Introducing MMRewards RxLink</h1>
+            <h1 className="rxtitle">
+              Introducing{" "}
+              <img
+                className="titlemmlogo"
+                src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1709865627/mmfontdarkgreen_nnrqnd.png"
+              />{" "}
+              RxLink
+            </h1>
             <p className="rxsubtitle">
               We hear you. Ordering prescriptions can be a real hassle. And, re-filling them in-store, or over the
-              phone, is hard too. Our new MMRewards RxLink feature makes everything pharmacy fast and easy. Now you can
-              use the MMRewards app to:
+              phone, is hard too. Our new{" "}
+              <img
+                className="subtitlemmlogo"
+                src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1709865627/mmfontdarkgreen_nnrqnd.png"
+              />{" "}
+              RxLink feature makes everything pharmacy fast and easy. Now you can use the{" "}
+              <img
+                className="subtitlemmlogo"
+                src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1709865627/mmfontdarkgreen_nnrqnd.png"
+              />{" "}
+              app to:
             </p>
           </div>
           <div className="container.fluid rxlist">
@@ -45,7 +61,15 @@ export function GoToRx() {
                       <li> Interaction warnings</li>
                     </ul>
                     <li> Even set reminders to take pills</li>
-                    <li> And, enjoy 2X MMRewards RxLink now!</li>
+                    <li>
+                      {" "}
+                      And, enjoy 2X{" "}
+                      <img
+                        className="listmmlogo"
+                        src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1709865627/mmfontblack_omkbkg.png"
+                      />{" "}
+                      RxLink now!
+                    </li>
                     <li className="activatebutton">
                       <button className="rxactivate">Activate Now</button>
                     </li>
