@@ -58,14 +58,13 @@ export function GoToEngage() {
 
           <div className="itemcontainer">
             <ItemContainer
-              image="https://target.scene7.com/is/image/Target/GUEST_470dfa63-5b84-4d42-a460-e6c14961a930?wid=488&hei=488&fmt=pjpeg"
-              title="Best Foods Real Mayonnaise - 48 Fl Oz"
-              newprice="9.29"
-              oldprice="10.99"
-              saving="1.70"
-              points="18"
+              image="https://pics.walgreens.com/prodimg/398349/450.jpg"
+              title="Nature Made Tumeric Curcumin 500 mg Capsules - 60 Count"
+              newprice="14.99"
+              oldprice="15.99"
+              saving="1.00"
+              points="30"
             ></ItemContainer>
-
             <ItemContainer
               image="https://m.media-amazon.com/images/S/assets.wholefoodsmarket.com/PIE/product/5a060530f6f83e41a40deab5_59231337d8a00307702fc146-produce-packaged-vegetables-fruits-mandarins.jpg"
               title="Mandarins Clementine Prepacked Bag - 3 Lb"
@@ -74,7 +73,14 @@ export function GoToEngage() {
               saving="1.00"
               points="10"
             ></ItemContainer>
-
+            <ItemContainer
+              image="https://target.scene7.com/is/image/Target/GUEST_470dfa63-5b84-4d42-a460-e6c14961a930?wid=488&hei=488&fmt=pjpeg"
+              title="Best Foods Real Mayonnaise - 48 Fl Oz"
+              newprice="9.29"
+              oldprice="10.99"
+              saving="1.70"
+              points="18"
+            ></ItemContainer>
             <ItemContainer
               image="https://i5.walmartimages.com/asr/0599901a-dded-4d9a-b89c-f48709b2cb73.a4dcc7e859912dc8ce6ba48ba0983d99.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF"
               title="Grey Poupon Dijon Mustard Squeeze Bottle - 10 Oz"
@@ -91,15 +97,6 @@ export function GoToEngage() {
               oldprice="9.99"
               saving="1.00"
               points="18"
-            ></ItemContainer>
-
-            <ItemContainer
-              image="https://pics.walgreens.com/prodimg/398349/450.jpg"
-              title="Nature Made Tumeric Curcumin 500 mg Capsules - 60 Count"
-              newprice="14.99"
-              oldprice="15.99"
-              saving="1.00"
-              points="30"
             ></ItemContainer>
           </div>
           <button className="engagebrowsemore">Browse more great offers and manufacturer's coupons</button>
