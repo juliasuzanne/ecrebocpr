@@ -3,10 +3,13 @@
   display: flex;
 }
 
-.mmnav-link{
-  color:white;
-  font-family: 'NeuzeitGro-Lig', Futura;
+.containernavbar{
+  display:flex;
+  align-items: center;
+  text-align: center;
+
 }
+
 
 #yeswraprewards{
   flex-wrap: wrap;
@@ -15,19 +18,11 @@
   flex-wrap: wrap;
 }
 
-.mmnavbarimage{
-  padding: 1em;
-}
 
-.fakesearch{
-  width: 40%;
-  border-radius: 20px;
-  border-style: none;
-  float: left;
-  padding: .4rem;
-  font-size: .7em;
-  font-family: Geneva, Tahoma, sans-serif
- 
+.mmnavbarimage{
+  justify-content: center;
+  align-items: center;
+  padding: 2vh;
 }
 
 

@@ -3,46 +3,14 @@ import "../Css/mmnavbar.css";
 export function MMNavbar() {
   return (
     <nav className="navbar mmnavbar-custom navbar-expand-lg navbar-light">
-      <div className="mmnavbarimage">
-        <img
-          src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1709866758/modernmarketslogo_rbv3a3.png"
-          height="50vw"
-        ></img>
-      </div>
-      <div className="container-fluid">
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span className="navbar-toggler-icon"></span>
-        </button>
-
-        <div className="collapse navbar-collapse" id="navbarNav">
-          <input className="fakesearch" placeholder="Search In-Store Products... "></input>
-          <ul className="navbar-nav">
-            <li className="nav-item">
-              <a className="nav-link" aria-current="page" href="#">
-                Home
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">
-                Features
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">
-                Pricing
-              </a>
-            </li>
-          </ul>
+      <div className="containernavbar">
+        <div className="mmnavbarimage">
+          <img
+            src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1709869285/mmlogocenteredtext_pch4eo.png"
+            height="40vw"
+          ></img>
         </div>
-
+        {/* <input className="fakesearch" placeholder="Search In-Store Products... "></input> */}
         {/* <li className="nav-item dropdown">
           <a
             className="nav-link dropdown-toggle"
@@ -75,8 +43,8 @@ export function MMNavbar() {
             </li>
           </ul>
         </li> */}
+        &nbsp; &nbsp;
       </div>
-      &nbsp; &nbsp;
     </nav>
 
     // <nav className="navbar navbar-expand-lg navbar-light bg-light">
