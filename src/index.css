@@ -48,9 +48,13 @@ canvas {
 #QR {
 }
 
-/* .rivecontainer{
-  height: 100%;
-} */
+.rivecontainer{
+  height: 60vh;
+}
+
+#test {
+  height: 75vh;
+}
 
 .riveBox{
   height: 150vh;
