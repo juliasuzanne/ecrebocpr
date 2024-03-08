@@ -50,6 +50,8 @@ canvas {
 
 .rivecontainer{
   height: 60vh;
+  padding-left: 0;
+  padding-top: 0;
 }
 
 #test {
@@ -93,6 +95,7 @@ button {
 .clicktopadding{
   padding-top: 10vh;
   padding-left: 30px;
+  width: 90%;
 }
 
 .clicktoplain{
@@ -184,6 +187,8 @@ html, body{
 #login {
   padding-top: 4vh;
   padding: 5vw;
+  z-index: 20;
+
 }
 
 .descriptionhead2 {
@@ -259,12 +264,14 @@ html, body{
   background-color: rgb(240,237,243);
   text-align: left;
 
+
 }
 
 .emailbuddy{
 padding: 6vh;
 font-size: .7em;
 text-align: left;
+
 }
 
 .form-control{

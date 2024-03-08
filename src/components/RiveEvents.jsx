@@ -28,9 +28,9 @@ export function RiveEvents() {
       console.log("Event name", eventData.name);
       if (eventData.name == "PlaySound") {
         play();
+        handleShowDiv();
       } else if (eventData.name == "EndAnimation") {
         console.log("end animation");
-        handleShowDiv();
         executeScroll();
       }
 
