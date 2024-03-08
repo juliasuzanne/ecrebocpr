@@ -191,18 +191,60 @@ figure {
 
 }
 
-@container (min-width: 700px) {
-  .testcard {
-
-    
+@media screen and (max-width: 1900px){
+  .appstorepanel{
+    background-image: url("https://res.cloudinary.com/dytb4ayqj/image/upload/v1709927584/appmimic-01_zpg0fa.png");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 25vw;
   }
-  .testcard .appdescriptiontext{
-
+  .appstorebannerhr{
+    visibility: hidden;
+    height: 0;
 
   }
- 
+  .appstoreinfo{
+    height: 0;
+
+  }
+
+  .appstorebanner{
+
+    visibility: hidden;
+    height: 0;
+
+  }
+
 }
 
+@media screen and (max-width: 768px){
+  .appstorepanel{
+    background-image: url("https://res.cloudinary.com/dytb4ayqj/image/upload/v1709927584/appmimic-02_bfzynn.png");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 25vw;
+  }
+
+  .appstorebannerhr{
+    visibility: initial;
+  }
+
+  .appstoreinfo{
+    height: 14vw;
+  }
+  .appstorebanner{    
+    overflow-x: scroll;
+    /* background-image: url("https://res.cloudinary.com/dytb4ayqj/image/upload/v1709927584/appmimic-03_pfgbgy.png"); */
+    width: 100%;
+    height: 13vw;
+    visibility: initial;
+
+  }
+
+
+}
 
 .appstoretitle{
    letter-spacing: .027em;
@@ -215,7 +257,9 @@ figure {
 }
 
 #mmtitle {
-  font-size: 3.2vw;
+  font-size: 1.5em;
+  letter-spacing: .019em;
+
 }
 
 .appstorepreview{
