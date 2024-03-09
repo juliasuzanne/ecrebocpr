@@ -1,6 +1,6 @@
 export function HomePageDescription() {
   return (
-    <div className="description">
+    <div className="description " id="ecrebocpr">
       <h1 className="descriptionhead1">Introducing EcreboCPR</h1>{" "}
       <span className="descriptionhead2">Clickable Paper Receipts™</span>
       <br></br>

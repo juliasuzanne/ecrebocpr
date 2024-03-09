@@ -6,12 +6,12 @@ import { EmailBuddy } from "./EmailBuddy";
 export function Home() {
   return (
     <div className="bodyborder">
-      <div className="description container.fluid">
+      <div className="description container.fluid" id="circlebackground">
         <div className="row">
           <div className="description col-sm-12 col-md-6">
             <HomePageDescription></HomePageDescription>
           </div>
-          <div className="receiptanim col-sm-12 col-md-6">
+          <div className="receiptanim col-sm-12 col-md-6" id="ecrebocpr">
             <RiveEvents></RiveEvents>
           </div>
         </div>
