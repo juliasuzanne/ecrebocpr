@@ -8,10 +8,10 @@ export function Home() {
     <div className="bodyborder">
       <div className="description container.fluid" id="circlebackground">
         <div className="row">
-          <div className="description col-sm-12 col-md-6">
+          <div className="description col-sm-12 col-md-12 col-lg-6">
             <HomePageDescription></HomePageDescription>
           </div>
-          <div className="receiptanim col-sm-12 col-md-6" id="ecrebocpr">
+          <div className="receiptanim col-sm-12 col-md-12  col-lg-6" id="ecrebocpr">
             <RiveEvents></RiveEvents>
           </div>
         </div>

@@ -396,7 +396,21 @@ text-align: left;
   }
 
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 990px){
+  #circlebackground{
+    background-position-y: 68vh;
+
+    background-image: url("https://res.cloudinary.com/dytb4ayqj/image/upload/w_500/v1710022295/circle_urs8ln.png");
+    background-repeat: no-repeat;
+    background-position-x: 25vw;
+    background-attachment: scroll;
+  
+  }
+  
+  }
+
+
+@media screen and (max-width: 790px){
   #circlebackground{
     background-position-y: 80vh;
 
@@ -408,5 +422,6 @@ text-align: left;
   }
   
   }
+
 
 
