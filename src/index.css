@@ -97,12 +97,14 @@ button {
   color: rgb(19, 92, 19);
   background-color:rgba(119, 226, 111, 0.571);
   margin-bottom: 15px;
+  border-radius: 20px;
 }
 
 
 .errors {
   padding-left: 40px;
   color: red;
+  border-radius: 20px;
   background-color:rgb(234, 222, 222);
   margin-bottom: 15px;
 }
@@ -111,7 +113,7 @@ button {
   font-size: 1.4em;
   margin-top: 20px;
   text-align: center;
-
+  font-family: "NeuzeitGro-Bol";
 
 }
 
