@@ -63,8 +63,10 @@ export function RiveEvents() {
   return (
     <div>
       <div className="clicktopadding">
-        <span className="clickto">See Clickable Paper Receipts in Action: </span>
+        <span className="clickto">See Clickable Paper Receipts in Action </span>
       </div>
+      <p className="clicktosee">Click to print a personalized receipt that:</p>
+
       <div className="rivecontainer">
         <RiveComponent className="riveBox" onMouseEnter={() => rive && rive.play()} />
       </div>
