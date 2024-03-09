@@ -42,7 +42,7 @@ export function AppStoreMimic() {
             <div className="screenshotcontainer">
               <img
                 className="screenshots"
-                src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1710011906/phonescreenshots_epihcj.png"
+                src="https://res.cloudinary.com/dytb4ayqj/image/upload/w_1400,f_auto/v1710011906/phonescreenshots_epihcj.png"
               />
             </div>
           </div>

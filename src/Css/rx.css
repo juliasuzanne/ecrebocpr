@@ -21,7 +21,7 @@
     padding: 0;
     margin: 0;
     min-height: 20vh;
-    background-image: url("https://res.cloudinary.com/dytb4ayqj/image/upload/v1709836960/AdobeStock_136772134_nyxkyy.jpg");
+    background-image: url("https://res.cloudinary.com/dytb4ayqj/image/upload/w_1100,f_auto/v1709836960/AdobeStock_136772134_nyxkyy.jpg");
     background-size: cover;
     background-position-x: -100px;
     background-repeat: no-repeat;
@@ -62,7 +62,7 @@
 
 
   .listbackground{
-    background-image: url("https://res.cloudinary.com/dytb4ayqj/image/upload/v1709845230/AdobeStock_303740855_pxwick_bk14gj.png");
+    background-image: url("https://res.cloudinary.com/dytb4ayqj/image/upload/w_900,f_auto/v1709845230/AdobeStock_303740855_pxwick_bk14gj.png");
      background-size: cover;
      background-repeat: no-repeat;
      height: 110%;
