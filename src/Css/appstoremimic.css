@@ -107,8 +107,8 @@ figure {
 
 
 .screenshotcontainer{
-  height: 40vh;
-  min-height: 400px;
+  height: 45vw;
+  min-height: 150px;
   overflow-x: scroll;
   width: 100%;
   margin: 0 auto;
@@ -131,7 +131,7 @@ figure {
   letter-spacing: .027em;
   font-family: "SF Pro Text","SF Pro Icons","Apple WebExp Icons Custom","Helvetica Neue",Helvetica,Arial,sans-serif;
   color: #393939;
-  font-size: 1.2vw;
+  font-size: 1.7vw;
   text-align: left;
   padding: 10px;
   padding-bottom: 30px;
