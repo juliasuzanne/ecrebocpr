@@ -71,7 +71,7 @@ export function EmailForm() {
           </div>
           <div className="row">
             <p className="disclaimer">
-              Ecrebo will use the information in this from to contact you about a follow-on meeting to learn more about
+              Ecrebo will use the information in this form to contact you about a follow-up meeting to learn more about
               Ecrebo’s Clickable Paper Receipt solution.
             </p>
           </div>
