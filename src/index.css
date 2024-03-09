@@ -92,6 +92,21 @@ button {
 
 }
 
+.success {
+  padding-left: 40px;
+  color: rgb(19, 92, 19);
+  background-color:rgba(119, 226, 111, 0.571);
+  margin-bottom: 15px;
+}
+
+
+.errors {
+  padding-left: 40px;
+  color: red;
+  background-color:rgb(234, 222, 222);
+  margin-bottom: 15px;
+}
+
 .clicktosee{
   font-size: 1.4em;
   margin-top: 20px;

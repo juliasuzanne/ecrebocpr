@@ -3,6 +3,9 @@ import { useState } from "react";
 
 export function EmailForm() {
   const [errors, setErrors] = useState([]);
+  const [errorShow, setErrorShow] = useState(true);
+  const [successMessageShow, setSuccessMessageShow] = useState(true);
+  const [successMessage, setSuccessMessage] = useState([]);
 
   const handleSubmit = (event) => {
     event.preventDefault();
@@ -13,27 +16,38 @@ export function EmailForm() {
       .then((response) => {
         console.log(response.data);
         event.target.reset();
-        window.location.href = "/";
+        setSuccessMessage(["E-mail sent successfully!"]);
+        setSuccessMessageShow(false);
+        setErrorShow(true);
+        setErrors([]);
       })
       .catch((errors) => {
         console.log(errors.response);
-        setErrors(["Invalid email or password"]);
+        setSuccessMessage([]);
+        setErrorShow(false);
+        setSuccessMessageShow(true);
+        setErrors(["Please fill out all fields"]);
       });
   };
 
   return (
     <div id="login">
-      <ul>
-        {errors.map((error) => (
-          <li key={error}>{error}</li>
-        ))}
-      </ul>
       <form onSubmit={handleSubmit}>
         <div className="container">
           <div className="row">
             <div className="email-outsides">
               <h3>Get In Touch</h3>
             </div>
+            <ul hidden={successMessageShow} className="success">
+              {successMessage.map((successMessage) => (
+                <li key={successMessage}>{successMessage}</li>
+              ))}
+            </ul>
+            <ul hidden={errorShow} className="errors">
+              {errors.map((error) => (
+                <li key={error}>{error}</li>
+              ))}
+            </ul>
           </div>
           <div className="row">
             <h5>
