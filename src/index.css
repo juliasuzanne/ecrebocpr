@@ -94,8 +94,10 @@ button {
 
 .clicktopadding{
   padding-top: 10vh;
-  padding-left: 30px;
-  width: 90%;
+  margin: auto;
+  width: 75%;
+  text-align: center;
+
 }
 
 .clicktoplain{
@@ -256,6 +258,7 @@ html, body{
   color: rgb(228, 222, 234);
   margin: 0 auto;
   padding-bottom: 15vh;
+
 
 }
 
