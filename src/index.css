@@ -111,8 +111,10 @@ button {
 
 .clicktosee{
   font-size: 1.4em;
-  margin-top: 20px;
   text-align: center;
+  padding-top: 5vh;
+  margin: auto;
+  width: 80%;
   font-family: "NeuzeitGro-Bol";
 
 }
@@ -412,11 +414,11 @@ text-align: left;
 
 @media screen and (max-width: 790px){
   #circlebackground{
-    background-position-y: 80vh;
+    background-position-y: 110vh;
 
     background-image: url("https://res.cloudinary.com/dytb4ayqj/image/upload/w_500/v1710022295/circle_urs8ln.png");
     background-repeat: no-repeat;
-    background-position-x: 0vw;
+    background-position-x: 5vw;
     background-attachment: scroll;
   
   }
