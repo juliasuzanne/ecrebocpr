@@ -9,8 +9,8 @@ export function GoToDigital() {
       <div id="appstorecontainer">
         <div id="externalpagebackground">
           <p className="externalpagedescription">
-            Simulates sending existing loyalty club members who have not downloaded the loyalty app to the retailer’s
-            App Store page to install the app.
+            Simulates sending existing loyalty club members who have not downloaded the app to the retailer’s App Store
+            page to install the app.
           </p>
           <br></br>
           <a className="externalpagedescriptionlink" href="/">

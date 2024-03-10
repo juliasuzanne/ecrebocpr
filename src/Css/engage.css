@@ -114,7 +114,7 @@ h1{
 }
 
 .mmengagetitle{
-  background-image: url("https://res.cloudinary.com/dytb4ayqj/image/upload/v1709349538/grocery_sfh8ho.png");
+  background-image: url("https://res.cloudinary.com/dytb4ayqj/image/upload/w_1000/v1709349538/grocery_sfh8ho.png");
   background-size: cover;
   background-repeat: no-repeat;
   /* background-position-x: 45vw;
@@ -359,10 +359,10 @@ input[type="checkbox"]{
   margin: 0;
   font: inherit;
   color: currentColor;
-  width: 1.15em;
-  height: 1.15em;
+  width: .5em;
+  height: .5em;
   border: 0.02em solid currentColor;
-  border-radius: 100%;
+  border-radius: 15%;
   transform: translateY(-0.075em);
 }
 
@@ -379,8 +379,8 @@ input[type="checkbox"] {
 
 input[type="checkbox"]:before  {
   content: "";
-  width: 0.65em;
-  height: 0.65em;
+  width: 0.5em;
+  height: 0.5em;
   transform: scale(.5);
   transition: 120ms transform ease-in-out;
   box-shadow: inset 1em 1em var(--form-control-color);
@@ -397,17 +397,29 @@ input[type="checkbox"]{
   width: 1.1em;
   transform-origin: bottom left;
   height: 1.1em;
-  color: rgb(164, 164, 164);
+  color: rgb(1, 48, 9);
 
-  transform: scale(2);
-  background-color: rgb(248,247,245);
+  transform: scale(1.25);
+  background-color: rgb(219, 249, 219);
   /* transition: 120ms transform ease-in-out;
   box-shadow: inset 1em 1em var(--form-control-color); */
 }
 
+input[type="checkbox"]:before{
+  content: "";
+  color: rgb(1, 48, 9);
+  transform: scale(2);
+  background-color: rgb(255, 255, 255);
+  /* transition: 120ms transform ease-in-out;
+  box-shadow: inset 1em 1em var(--form-control-color); */
+}
+
+
+
+
 input[type="checkbox"]:checked:before {
   /* transform: scale(2); */
-  background-color: rgb(24,67,37);
+  background-color: rgb(70,152,64);
   transform: scale(1.8);
 
   transform-origin: middle center;

@@ -21,8 +21,8 @@ export function GoToEngage() {
         <div id="engagecontainer">
           <div id="externalpagebackground">
             <p className="externalpagedescription">
-              Simulates sending a declining/lapsed loyalty app user to a page in the app loaded with personalized offers
-              to emphasize the app’s money-saving benefits.
+              Simulates sending a declining/lapsed loyalty app user to a page loaded with personalized offers to
+              emphasize the app’s money-saving benefits.
             </p>
             <br></br>
             <a className="externalpagedescriptionlink" href="/">

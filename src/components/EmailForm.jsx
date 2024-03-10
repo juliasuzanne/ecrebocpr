@@ -51,8 +51,8 @@ export function EmailForm() {
           </div>
           <div className="row">
             <h5>
-              Learn more about how Ecrebo’s Clickable Paper Receipt solution supercharges your digital media. Let’s put
-              your receipts to work!
+              Learn how Ecrebo’s Clickable Paper Receipt solution supercharges your digital media. Let’s put your
+              receipts to work!
             </h5>
           </div>
           <div className="row">

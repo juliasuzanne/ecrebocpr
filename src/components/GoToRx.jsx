@@ -7,7 +7,7 @@ export function GoToRx() {
       <div id="externalpagebackground">
         <p className="externalpagedescription">
           Simulates sending a known pharmacy customer to a page in the retailer’s app explaining a new time and
-          money-saving pharmacy feature.
+          money-saving feature at the pharmacy.
         </p>
         <br></br>
         <a className="externalpagedescriptionlink" href="/">

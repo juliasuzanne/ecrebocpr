@@ -9,8 +9,8 @@ export function GoToAcquire() {
       <div id="appstorecontainer">
         <div id="externalpagebackground">
           <p className="externalpagedescription">
-            Simulates sending a potentially new loyalty club member to the retailer’s App Store page to install the app
-            and join the loyalty program.
+            Simulates sending a potentially new loyalty club member to the retailer’s App Store page to join the loyalty
+            program.
           </p>
           <br></br>
           <a className="externalpagedescriptionlink" href="/">
