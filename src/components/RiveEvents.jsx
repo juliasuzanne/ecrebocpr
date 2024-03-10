@@ -5,12 +5,16 @@ export function RiveEvents() {
   const [showExtendedDiv, setShowExtendedDiv] = useState(true);
 
   const { rive, RiveComponent } = useRive({
-    src: "ecrebocprlinks.riv",
+    src: "ecrebocpr.riv",
     stateMachines: "State Machine 1",
     autoPlay: "false",
   });
   const myRef = useRef(null);
+  const scrollRef = useRef(null);
+
   const executeScroll = () => myRef.current.scrollIntoView({ behavior: "smooth" });
+
+  const backToTopScroll = () => scrollRef.current.scrollIntoView({ behavior: "smooth" });
 
   const handleShowDiv = () => {
     setShowExtendedDiv(false);
@@ -32,6 +36,9 @@ export function RiveEvents() {
       } else if (eventData.name == "EndAnimation") {
         console.log("end animation");
         executeScroll();
+      } else if (eventData.name == "Scroller") {
+        console.log("receipt hit");
+        backToTopScroll();
       }
 
       // Added relevant metadata from the event
@@ -62,7 +69,7 @@ export function RiveEvents() {
 
   return (
     <div>
-      <div className="clicktopadding">
+      <div ref={scrollRef} className="clicktopadding">
         <span className="clickto">See Clickable Paper Receipts in Action </span>
       </div>
       <p className="clicktosee">Click to print a personalized receipt that:</p>
