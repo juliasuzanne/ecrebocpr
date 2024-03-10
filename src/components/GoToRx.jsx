@@ -20,34 +20,42 @@ export function GoToRx() {
       <div className="rxcontainer">
         <MMNavbar></MMNavbar>
         <div className="rxcontentcontainer">
-          <div className="rxheader">
-            <h1 className="rxtitle">
-              Introducing{" "}
-              <img
-                className="titlemmlogo"
-                src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1709865627/mmfontdarkgreen_nnrqnd.png"
-              />{" "}
-              RxLink
-            </h1>
-            <p className="rxsubtitle">
-              We hear you. Ordering prescriptions can be a real hassle. And, re-filling them in-store, or over the
-              phone, is hard too. Our new{" "}
-              <img
-                className="subtitlemmlogo"
-                src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1709865627/mmfontdarkgreen_nnrqnd.png"
-              />{" "}
-              RxLink feature makes everything pharmacy fast and easy. Now you can use the{" "}
-              <img
-                className="subtitlemmlogo"
-                src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1709865627/mmfontdarkgreen_nnrqnd.png"
-              />{" "}
-              app to:
-            </p>
+          <div className="rxheaderbackground">
+            <br></br>
+            <div className="rxheader">
+              <h1 className="rxtitle">
+                Introducing <br></br>
+                <img
+                  className="titlemmlogo"
+                  src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1710073797/mmlogorewards-03_q5v2lm.png"
+                />{" "}
+                <img
+                  className="titlemmlogo"
+                  src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1710073797/mmlogorewards-02_xxmxql.png"
+                />
+              </h1>
+              <p className="rxsubtitle">
+                We hear you. Ordering prescriptions can be a real hassle. And, re-filling them in-store, or over the
+                phone, is hard too. Our new{" "}
+                <img
+                  className="subtitlemmlogo"
+                  src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1709865627/mmfontdarkgreen_nnrqnd.png"
+                />{" "}
+                RxLink feature makes everything pharmacy fast and easy. Now you can use the{" "}
+                <img
+                  className="subtitlemmlogo"
+                  src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1709865627/mmfontdarkgreen_nnrqnd.png"
+                />{" "}
+                app to:
+              </p>
+            </div>
+            <br></br>
+            <br></br>
           </div>
           <div className="container.fluid rxlist">
             <div className="row rxrow">
-              <div className="col-sm-12 col-md-6 rxbackground"></div>
-              <ul className="col-sm-12 col-md-6 rxmainlist">
+              <div className="col-sm-12 col-md-5 rxbackground"></div>
+              <ul className="col-sm-12 col-md-7 rxmainlist">
                 <div className="listbackground">
                   <div className="listtextonly">
                     <li>Place orders for prescriptions (for pickup or delivery)</li>

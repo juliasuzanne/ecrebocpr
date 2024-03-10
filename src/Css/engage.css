@@ -79,6 +79,8 @@ h1{
     margin: auto;
     width: 50%;
     height: 30%;
+    border-radius: 15px;
+
   }
   .titlemmrewardstext{
     font-size: 3vw;

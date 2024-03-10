@@ -15,20 +15,26 @@
   background-color: rgb(255, 255, 255);
 }
 
+.rxheaderbackground{
+  background-image: url("https://res.cloudinary.com/dytb4ayqj/image/upload/v1710074922/AdobeStock_26321728_h6mkxa.jpg");
+  background-size: cover;
+}
+
+
 
 @media screen and (max-width: 1908px){
   .rxbackground{
     padding: 0;
     margin: 0;
-    min-height: 20vh;
-    background-image: url("https://res.cloudinary.com/dytb4ayqj/image/upload/w_1100,f_auto/v1709836960/AdobeStock_136772134_nyxkyy.jpg");
+    min-height: 40vh;
+    background-image: url("https://res.cloudinary.com/dytb4ayqj/image/upload/v1710074726/AdobeStock_42545852_upedxc.jpg");
     background-size: cover;
-    background-position-x: -100px;
     background-repeat: no-repeat;
     display:flex;
   }
 
   .listmmlogo{
+
     height: 3vh;
     padding-bottom: .8vh;
 
@@ -41,14 +47,15 @@
   }
 
   .titlemmlogo{
-    height: 9.7vh;
+    height: 9.3vh;
     padding-left: 0;
-    padding-bottom: 2.5vh;
+    padding-bottom: 1.5vh;
   }
 
   .rxtitle{
     font-family:"PulpDisplay-SemiBold", Georgia;
     font-size: 5vw;
+    color:rgb(4, 65, 4);
   }
   
   .rxsubtitle{
@@ -61,7 +68,7 @@
   }
 
 
-  .listbackground{
+  /* .listbackground{
     background-image: url("https://res.cloudinary.com/dytb4ayqj/image/upload/w_900,f_auto/v1709845230/AdobeStock_303740855_pxwick_bk14gj.png");
      background-size: cover;
      background-repeat: no-repeat;
@@ -70,24 +77,26 @@
      padding: 50px;
      background-position-x: -50px;
      overflow-y: hidden;
-  }
+  } */
 
   .rxmainlist {
-    font-size: 1.2vw;
+    padding-top: 5vh;
+    font-size: 2.4vh;
     display:inline-block;
   }
   
   
   .rxsublist {
     list-style: square;
-    font-size: 1.2vw;
+    font-size: 2.0vh;
   
   }
   
 
 
 .listtextonly{
-  max-width: 50%;
+  max-width: 80%;
+  margin:auto;
 }
 
 
@@ -123,6 +132,7 @@
   .rxbackground{
     background-position-x: 0px;
     background-size: cover;
+
   
   }
   .rxtitle{
@@ -158,6 +168,7 @@
   }
 
   .rxmainlist {
+    padding-top: 0;
     font-size: 3vw;
     display:inline-block;
     
@@ -223,10 +234,11 @@ ul {
 }
 
 .rxheader{
-  background-color: rgb(248,247,245);
-  width: 100%;
-  padding-top: 5vh;
+  background-color: rgba(255, 255, 255, 0.891);
+  width: 70%;
+  border-radius: 15px;
   padding: auto;
+  margin: auto;
   /* background-image: url("https://res.cloudinary.com/dytb4ayqj/image/upload/v1709839633/AdobeStock_100459285_urvd4m.png"); */
   background-size: 50%;
   background-repeat: no-repeat;
@@ -246,3 +258,29 @@ ul {
   float: right;
   color: rgb(248,247,245);
 }
+
+
+@media screen and (max-width: 618px){
+
+
+  .titlemmlogo{
+    height: 6.2vh;
+    padding-left: 0;
+    padding-bottom: .95vh;
+  }
+  
+}
+
+
+
+@media screen and (max-width: 418px){
+
+
+  .titlemmlogo{
+    height: 5.2vh;
+    padding-left: 0;
+    padding-bottom: .95vh;
+  }
+  
+}
+
