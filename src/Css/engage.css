@@ -188,7 +188,7 @@ h1{
 
 
   .titlemmrewardstext{
-    font-size: 22px;
+    font-size: 16px;
   margin:auto;
   font-family: "PulpDisplay-SemiBold";
     font-weight: bold;
@@ -209,7 +209,8 @@ h1{
   }
 
   .subtitlemmrewardsimage{
-    height: 5vh;
+    height: 3.4vh;
+    padding-left: 0;
     margin: auto;
     padding-top: 1vw;
     padding-bottom: .5vw;
