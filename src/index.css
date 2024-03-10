@@ -384,6 +384,13 @@ text-align: left;
   url("/Corda.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: "ModernMarkets";   /*Can be any text*/
+  src: local("ModernMarkets"),
+  url("/ModernMarkets.ttf") format("truetype");
+}
+
+
 
 
 @media screen and (max-width: 2068px){

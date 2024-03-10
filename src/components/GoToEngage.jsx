@@ -32,28 +32,36 @@ export function GoToEngage() {
             <br></br>
           </div>
           <MMNavbar></MMNavbar>
-          <div className="mmengagetitle">
-            <h1 className="col-sm-12 col-md-10 titlemmrewardstext">
-              Hi Sofia!<br></br>
-              <span className="titlemmrewardstext">Thank you for being an </span>
+          <div>
+            <div className="mmengagetitle">
               <br></br>
-              <img
-                className="titlemmrewardsimage"
-                src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1709864928/mmrewardslogogreen_vmnzmg.png"
-              />{" "}
-              <br></br>
-              <span className="titlemmrewardstext">Member.</span>
-            </h1>
-            <p className="col-sm-12 col-md-10 engagedescription">
-              Below we’ve handpicked some amazing offers to help you save! Buy these items on an upcoming trip to (or
-              online order from) Modern Markets and enjoy 2X
-              <img
-                className="subtitlemmrewardsimage"
-                src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1709864928/mmrewardslogogreen_vmnzmg.png"
-              />
-              .<br></br>Your personalized offers expire on {currentDate}.
-            </p>
-            <hr></hr>
+
+              <div className="titlebox">
+                <h1 className="col-sm-12 col-md-10 titlemmrewardstext">
+                  Hi Sofia!<br></br>
+                  <span className="titlemmrewardstext">Thank you for being an </span>
+                  <br></br>
+                  <img
+                    className="titlemmrewardsimage"
+                    src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1709865627/mmfontdarkgreen_nnrqnd.png"
+                  />{" "}
+                  <br></br>
+                  <span className="titlemmrewardstext">Member</span>
+                </h1>
+
+                <p className="col-sm-12 col-md-10 engagedescription">
+                  Below we’ve handpicked some amazing offers to help you save! Buy these items on an upcoming trip to
+                  (or online order from) Modern Markets and enjoy 2X
+                  <img
+                    className="subtitlemmrewardsimage"
+                    src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1709864810/mmrewardsnewgreen_eu6xgo.png"
+                  ></img>
+                  <br></br>Your personalized offers expire on {currentDate}.
+                </p>
+              </div>
+
+              <hr></hr>
+            </div>
           </div>
 
           <div className="itemcontainer">
