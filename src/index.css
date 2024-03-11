@@ -58,11 +58,7 @@ canvas {
   height: 75vh;
 }
 
-.riveBox{
-  height: 150vh;
-  margin: auto;
-  padding-right: 4vw;
-}
+
 
 
 #boxy{
@@ -234,9 +230,15 @@ html, body{
   color: rgb(40,43,74);
   font-size: 2.6em;
   font-family: 'NeuzeitGro-Bol';
+}
 
-
-  
+#tm{
+  background-color: rgb(44,245,208);
+  color: rgb(40,43,74);
+  font-size: 0.8em;
+  font-family: 'NeuzeitGro-Bol';
+  position: relative;
+  bottom: 6px;
 }
 
 .socialLink {
@@ -252,6 +254,8 @@ html, body{
   filter: invert(40%) sepia(19%) saturate(4076%) hue-rotate(928deg) brightness(58%) contrast(119%);
 
 }
+
+
 
 .emailmessage{
   height:100px;
@@ -290,13 +294,7 @@ html, body{
 
 
 
-.receiptanim{
-  color: rgb(228, 222, 234);
-  margin: 0 auto;
-  padding-bottom: 15vh;
 
-
-}
 
 
 .email{
@@ -403,6 +401,20 @@ text-align: left;
     background-attachment: scroll;
   
   }
+
+  .receiptanim{
+    color: rgb(228, 222, 234);
+    margin: 0 auto;
+    padding-bottom: 15vh;
+  
+  
+  }
+  .riveBox{
+    height: 150vh;
+    margin: auto;
+    padding-right: 4vw;
+  
+  }
   
   }
 
@@ -417,6 +429,12 @@ text-align: left;
     background-attachment: scroll;
   
   }
+  .riveBox{
+    height: 150vh;
+    margin: auto;
+    padding-right: 4vw;
+  
+  }
   
   }
 
@@ -429,6 +447,19 @@ text-align: left;
     background-repeat: no-repeat;
     background-position-x: 5vw;
     background-attachment: scroll;
+  
+  }
+  .receiptanim{
+    color: rgb(228, 222, 234);
+    margin: 0 auto;
+    padding-bottom: 0vh;
+  
+  
+  }
+  .riveBox{
+    height: 120vh;
+    margin: auto;
+    padding-right: 4vw;
   
   }
   
