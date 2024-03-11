@@ -156,7 +156,6 @@ h1{
     font-size: 4vw;
     margin: auto;
     font-family: "PulpDisplay-SemiBold";
-    font-weight: bold;
     color: rgb(24,67,37);
     padding-bottom: 0;
     padding-bottom: 20px;
@@ -226,7 +225,6 @@ h1{
     padding-top:20px;
     margin:auto;
     font-family: "PulpDisplay-SemiBold";
-    font-weight: bold;
     padding-bottom: 20px;
     color: rgb(24,67,37);
   }
