@@ -116,6 +116,13 @@ h1{
     padding-bottom: .8vw;
     
   }
+  .personalizedheader{
+    padding: 5px;
+    padding-left: 6vw;
+    text-align: left;
+    font-size: 4.25vh;
+  }
+
   
 }
 
@@ -174,6 +181,14 @@ h1{
     padding-bottom: 1.7vw;
     
   }
+  .personalizedheader{
+    padding: 5px;
+    padding-left: 10vw;
+
+    text-align: left;
+    font-size: 4.25vh;
+  }
+
 
   
 }
@@ -188,6 +203,7 @@ h1{
 
   .personalizedheader{
     padding: 5px;
+    text-align: center;
     font-size: 4.25vh;
   }
 
