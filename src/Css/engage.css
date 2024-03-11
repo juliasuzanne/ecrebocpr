@@ -51,19 +51,6 @@ h1{
 }
 
 
-#points{
-  font-size: 2.2vh;
-  text-align: center;
-  font-weight: bold;
-  color: white;
-  padding: 10px;
-  background-color: rgb(28, 68, 28);
-  margin: auto;
-  border-radius: 10px;
-  /* border-radius: 100%; */
-  display: inline-block;
-}
-
 
 @media screen and (max-width: 10092px){
   .titlemmrewardsimage{
@@ -73,6 +60,21 @@ h1{
     padding-bottom: 2vw;
   
   }
+
+  #points{
+    font-size: 2.2vh;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+    background-color: rgb(28, 68, 28);
+    margin: auto;
+    border-radius: 10px;
+    max-width: 60%;
+    /* border-radius: 100%; */
+    display: inline-block;
+  }
+  
 
   .titlebox{
     background-color: white;
@@ -104,11 +106,11 @@ h1{
     background-color: rgba(255, 255, 255, 0.952);
   }
   .subtitlemmrewardsimage{
-    height: 2.5vw;
-    margin: auto;
+    height: 2.8vw;
     padding-top: 0vw;
-
     padding-left: .5rem;
+    padding-bottom: .8vw;
+    
   }
   
 }
@@ -165,6 +167,7 @@ h1{
     height: 5vw;
     margin: auto;
     padding-top: 1vw;
+    padding-bottom: 1.7vw;
     
   }
 
@@ -178,6 +181,12 @@ h1{
     margin: auto;
   
   }
+
+  #points{
+    max-width: 70%;
+    
+  }
+  
 
   .titlebox{
     background-color: white;
@@ -222,9 +231,14 @@ h1{
 }
 
 @media screen and (max-width: 570px){
+  #points{
+    max-width: 100%;
 
+    
   }
 
+
+  }
 
 
 
@@ -309,7 +323,7 @@ font-size: 3.4vh;
 
 
 .pointsmmrewardsimage{
-  height: 5vh;
+  height: 4vh;
   padding-top: 1vh;
   padding-bottom: .5vh;
 
@@ -364,6 +378,11 @@ input[type="checkbox"]{
   border: 0.02em solid currentColor;
   border-radius: 15%;
   transform: translateY(-0.075em);
+}
+
+.large2x {
+  font-family: "NeuzeitGro-Bol";
+  font-size: 2.4vw;
 }
 
 .form-control + .form-control {

@@ -51,19 +51,21 @@ export function GoToEngage() {
 
                 <p className="col-sm-12 col-md-10 engagedescription">
                   Below we’ve handpicked some amazing offers to help you save! Buy these items on an upcoming trip to
-                  (or online order from) Modern Markets and enjoy 2X
+                  (or online order from) Modern Markets and enjoy
                   <img
                     className="subtitlemmrewardsimage"
-                    src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1709864810/mmrewardsnewgreen_eu6xgo.png"
+                    src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1710183079/2xmmlogorewards_qbtnh9.png"
                   ></img>
-                  <br></br>Your personalized offers expire on {currentDate}.
+                  . <br></br>Your personalized offers expire on {currentDate}.
                 </p>
               </div>
 
               <hr></hr>
             </div>
           </div>
-
+          <br></br>
+          <h1>Your Personalized Offers</h1>
+          <hr></hr>
           <div className="itemcontainer">
             <ItemContainer
               image="https://pics.walgreens.com/prodimg/398349/450.jpg"

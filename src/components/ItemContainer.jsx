@@ -40,12 +40,11 @@ export function ItemContainer(props) {
           </div>
         </div>
         <span className="col-sm-12 col-md-3 itemtitle" id="points">
-          {" "}
-          2X{" "}
           <img
             className="pointsmmrewardsimage"
-            src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1709864810/mmrewardsgreynew_xgocnl.png"
+            src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1710183359/mmlogorewardswhite2x_wfajad.png"
           />{" "}
+          <br></br>
           {props.points} Points{" "}
         </span>
       </div>
