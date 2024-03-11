@@ -64,7 +64,7 @@ export function GoToEngage() {
             </div>
           </div>
           <br></br>
-          <h1>Your Personalized Offers</h1>
+          <h1 className="personalizedheader">Your Personalized Offers</h1>
           <hr></hr>
           <div className="itemcontainer">
             <ItemContainer

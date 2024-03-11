@@ -16,6 +16,11 @@
 
 }
 
+.personalizedheader{
+  padding: 5px;
+  font-size: 5vh;
+}
+
 .mmnavbar{
   height: 10vh;
 
@@ -106,7 +111,7 @@ h1{
     background-color: rgba(255, 255, 255, 0.952);
   }
   .subtitlemmrewardsimage{
-    height: 2.8vw;
+    height: 2.5vw;
     padding-top: 0vw;
     padding-left: .5rem;
     padding-bottom: .8vw;
@@ -217,8 +222,10 @@ h1{
 
   }
 
+ 
+
   .subtitlemmrewardsimage{
-    height: 4.7vh;
+    height: 5.2vw;
     padding-left: 0;
     margin: auto;
     padding-top: 1vw;
@@ -229,6 +236,21 @@ h1{
   
 
 }
+
+@media screen and (max-width: 370px){
+  .subtitlemmrewardsimage{
+    height: 4vh;
+    padding-left: 0;
+    margin: auto;
+    padding-top: 1vw;
+    padding-bottom: 1.85vw;
+
+  
+  }
+  
+
+
+  }
 
 @media screen and (max-width: 570px){
   #points{
