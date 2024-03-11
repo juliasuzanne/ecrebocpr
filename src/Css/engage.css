@@ -16,11 +16,6 @@
 
 }
 
-.personalizedheader{
-  padding: 5px;
-  font-size: 5vh;
-}
-
 .mmnavbar{
   height: 10vh;
 
@@ -64,6 +59,10 @@ h1{
     padding-top: 1vw;
     padding-bottom: 2vw;
   
+  }
+  .personalizedheader{
+    padding: 5px;
+    font-size: 4.5vh;
   }
 
   #points{
@@ -185,6 +184,11 @@ h1{
     padding-top: 1vw;
     margin: auto;
   
+  }
+
+  .personalizedheader{
+    padding: 5px;
+    font-size: 4.25vh;
   }
 
   #points{
