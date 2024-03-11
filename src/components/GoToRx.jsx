@@ -39,12 +39,12 @@ export function GoToRx() {
                 phone, is hard too. Our new{" "}
                 <img
                   className="subtitlemmlogo"
-                  src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1709865627/mmfontdarkgreen_nnrqnd.png"
+                  src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1710185106/mmlogorewardsnewgreen_wvj0up.png"
                 />{" "}
-                RxLink feature makes everything pharmacy fast and easy. Now you can use the{" "}
+                feature makes everything pharmacy fast and easy. Now you can use the{" "}
                 <img
                   className="subtitlemmlogo"
-                  src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1709865627/mmfontdarkgreen_nnrqnd.png"
+                  src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1710185021/mmlogorewardslinksmall_wryeyn.png"
                 />{" "}
                 app to:
               </p>
@@ -71,12 +71,11 @@ export function GoToRx() {
                     <li> Even set reminders to take pills</li>
                     <li>
                       {" "}
-                      And, enjoy 2X{" "}
+                      And, enjoy
                       <img
                         className="listmmlogo"
-                        src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1709865627/mmfontblack_omkbkg.png"
-                      />{" "}
-                      RxLink now!
+                        src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1710185022/mmlogorewards2xrxlink_prowc5.png"
+                      />
                     </li>
                     <li className="activatebutton">
                       <button className="rxactivate">Activate Now</button>

@@ -33,17 +33,10 @@
     display:flex;
   }
 
-  .listmmlogo{
-
-    height: 3vh;
-    padding-bottom: .8vh;
-
-  }
-
   .subtitlemmlogo{
     height: 4.7vh;
     padding-left: 0;
-    padding-bottom: 1.5vh;
+    padding-bottom: 1.2vh;
   }
 
   .titlemmlogo{
@@ -55,7 +48,7 @@
   .rxtitle{
     font-family:"PulpDisplay-SemiBold", Georgia;
     font-size: 5vw;
-    color:rgb(4, 65, 4);
+    color:rgb(5,51,28);
   }
   
   .rxsubtitle{
@@ -81,14 +74,14 @@
 
   .rxmainlist {
     padding-top: 5vh;
-    font-size: 2.4vh;
+    font-size: 3vh;
     display:inline-block;
   }
   
   
   .rxsublist {
     list-style: square;
-    font-size: 2.0vh;
+    font-size: 3.0vh;
   
   }
   
@@ -122,8 +115,8 @@
   }
 
   .listmmlogo{
-    height: 2.6vh;
-    padding-bottom: .8vh;
+    height: 4.2vh;
+    padding-bottom: 1vh;
   
   }
 }
@@ -132,7 +125,18 @@
   .rxbackground{
     background-position-x: 0px;
     background-size: cover;
+  }
 
+   
+  .rxsublist {
+    list-style: square;
+    font-size: 2.5vh;
+  
+  }
+
+  .listmmlogo{
+    height: 3.4vh;
+    padding-bottom: .4vh;
   
   }
   .rxtitle{
@@ -141,7 +145,7 @@
   }
 
   .subtitlemmlogo{
-    height: 3.2vh;
+    height: 3.7vh;
     padding-left: 0;
     padding-bottom: .95vh;
   }
@@ -161,7 +165,7 @@
      background-repeat: no-repeat;
      height: 110%;
      width: 110%;
-     padding: 50px;
+     padding: 25px;
      background-position-x: -210px;
      overflow-y: hidden;
 
@@ -169,7 +173,7 @@
 
   .rxmainlist {
     padding-top: 0;
-    font-size: 3vw;
+    font-size: 3vh;
     display:inline-block;
     
   }
@@ -177,7 +181,7 @@
   
   .rxsublist {
     list-style: square;
-    font-size: 3vw;
+    font-size: 2.5vh;
   
   }
 
@@ -202,10 +206,16 @@
     border-radius: 30px;
   }
   .listmmlogo{
-    height: 3.5vh;
-    padding-bottom: 1.2vh;
+    height: 4vh;
+    padding-bottom: 1vh;
   
   }
+
+  .listtextonly{
+    max-width: 96%;
+    font-size: 3vh;    
+  }
+  
   
   
 }
@@ -255,7 +265,7 @@ ul {
 
 .activatebutton {
   list-style: none;
-  float: right;
+  text-align: center;
   color: rgb(248,247,245);
 }
 
