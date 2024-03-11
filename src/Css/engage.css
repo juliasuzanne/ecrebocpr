@@ -178,7 +178,7 @@ h1{
   
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 738px){
   .titlemmrewardsimage{
     height: 10vw;
     padding-top: 1vw;
@@ -206,21 +206,22 @@ h1{
 
 
   .titlemmrewardstext{
-    font-size: 16px;
-  margin:auto;
-  font-family: "PulpDisplay-SemiBold";
+    font-size: 26px;
+    padding: 4px;
+    padding-top:20px;
+    margin:auto;
+    font-family: "PulpDisplay-SemiBold";
     font-weight: bold;
     padding-bottom: 20px;
-
     color: rgb(24,67,37);
   }
   .engagedescription{
     font-family: "Corda";
     color: rgb(24,67,37);
-    font-size: clamp(1.8vw, 12px, 20px);
+    font-size: clamp(2vw, 16px, 20px);
     text-align: left;
     margin: auto;
-    width: 92%;
+    width: 96%;
     background-color: rgba(255, 255, 255, 0.952);
 
 
@@ -229,7 +230,7 @@ h1{
  
 
   .subtitlemmrewardsimage{
-    height: 5.2vw;
+    height: 6.4vw;
     padding-left: 0;
     margin: auto;
     padding-top: 1vw;
