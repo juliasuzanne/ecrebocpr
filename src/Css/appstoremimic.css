@@ -156,6 +156,84 @@ figure {
 
 }
 
+@media screen and (max-width: 2900px){
+
+  .appstoretitle {
+    font-size: 1.95em;
+    line-height: 1.22226;
+    font-weight: 500;
+    text-align: left;
+    letter-spacing: .027em;
+    font-family: "SF Pro Display","SF Pro Icons","Apple WebExp Icons Custom","Helvetica Neue",Helvetica,Arial,sans-serif;
+    
+}
+
+.appstorepreview{
+  color: #636366;
+  font-size: 2em;
+font-weight: 400;
+letter-spacing: .009em;
+font-family: "SF Pro Display","SF Pro Icons","Apple WebExp Icons Custom","Helvetica Neue",Helvetica,Arial,sans-serif;
+
+}
+
+  .appstorepanel{
+    background-image: url("https://res.cloudinary.com/dytb4ayqj/image/upload/v1709927584/appmimic-01_zpg0fa.png");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 25vw;
+  }
+  .appstorebannerhr{
+    visibility: hidden;
+    height: 0;
+
+  }
+  .appstoreinfo{
+    height: 0;
+
+  }
+
+  .appstorebanner{
+
+    visibility: hidden;
+    height: 0;
+
+  }
+
+  .banner{
+    color: #484848;
+    text-align: center;
+    font-size: .8vw;
+    line-height: 1.38462;
+    font-weight: 400;
+    font-family: "SF Pro Text","SF Pro Icons","Apple WebExp Icons Custom","Helvetica Neue",Helvetica,Arial,sans-serif;
+    letter-spacing: .027em;
+    margin: auto;
+    padding-top: 1em;
+    padding-bottom: 1em;
+  
+  }
+
+  .appstoredescription {
+    letter-spacing: .027em;
+    font-family: "SF Pro Text","SF Pro Icons","Apple WebExp Icons Custom","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #393939;
+    font-size: 1.3vw;
+    text-align: left;
+    padding: 10px;
+    padding-bottom: 30px;
+  }
+
+  #mmtitle {
+    font-size: 2em;
+    letter-spacing: .019em;
+  
+  }
+
+}
+
+
 @media screen and (max-width: 1900px){
 
   .appstoretitle {
