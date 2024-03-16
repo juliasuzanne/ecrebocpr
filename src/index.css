@@ -389,6 +389,32 @@ text-align: left;
 }
 
 
+@media screen and (max-width: 3068px){
+  #circlebackground{
+    background-image: url("https://res.cloudinary.com/dytb4ayqj/image/upload/w_600/v1710022295/circle_urs8ln.png");
+    background-repeat: no-repeat;
+    background-position-x: 55vw;
+    background-position-y: 0;
+
+    background-attachment: scroll;
+  
+  }
+
+  .receiptanim{
+    color: rgb(228, 222, 234);
+    margin: 0 auto;
+    padding-bottom: 0vh;
+  
+  
+  }
+  .riveBox{
+    height: 120vh;
+    margin: auto;
+    padding-right: 4vw;
+  
+  }
+  
+  }
 
 
 @media screen and (max-width: 2068px){
