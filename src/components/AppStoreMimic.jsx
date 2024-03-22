@@ -28,9 +28,9 @@ export function AppStoreMimic() {
 
           <hr></hr>
           <div className="appstoredescription">
-            Modern Markets all-in-one MMRewards app makes shopping easier and more rewarding! Save with weekly deals and
-            coupons. Earn and redeem valuable MMRewards points. Plan meals. Create shopping lists. Schedule delivery or
-            in-store pickup. Refill prescriptions. Join today to earn 1,000 bonus MMRewards Points. That’s $10 in
+            Modern Markets all-in-one mRewards app makes shopping easier and more rewarding! Save with weekly deals and
+            coupons. Earn and redeem valuable mRewards points. Plan meals. Create shopping lists. Schedule delivery or
+            in-store pickup. Refill prescriptions. Join today to earn 1,000 bonus mRewards Points. That’s $10 in
             savings!
           </div>
 
