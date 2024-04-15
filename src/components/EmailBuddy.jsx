@@ -6,7 +6,7 @@ export function EmailBuddy() {
       <br></br>
       <br></br>
       <p>
-        Ecrebo's patented, software-only solution makes it easy for retailers to cost-effetively deliver personalized
+        Ecrebo's patented, software-only solution makes it easy for retailers to cost-effectively deliver personalized
         offers and messages at checkout on paper and digital receipts.
       </p>
       <a href="https://twitter.com/ecrebo">
