@@ -6,9 +6,9 @@ import { MMNavbar } from "./MMNavbar";
 
 function getDate() {
   const today = new Date();
-  const month = today.getMonth() + 1;
+  const month = today.getMonth();
   const year = today.getFullYear();
-  const date = today.getDate() + 10;
+  const date = today.getDate();
   return `${month}/${date}/${year}`;
 }
 
@@ -56,7 +56,7 @@ export function GoToEngage() {
                     className="subtitlemmrewardsimage"
                     src="https://res.cloudinary.com/dytb4ayqj/image/upload/v1710183079/2xmmlogorewards_qbtnh9.png"
                   ></img>
-                  . <br></br>Your personalized offers expire on {currentDate}.
+                  . <br></br>Your personalized offers expire on 7/31/24.
                 </p>
               </div>
 
