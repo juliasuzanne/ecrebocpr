@@ -3,6 +3,8 @@ import { RiveEvents } from "./RiveEvents";
 import { HomePageDescription } from "./HomePageDescription";
 import { Footer } from "./Footer";
 import { EmailBuddy } from "./EmailBuddy";
+import { ContactForm } from "./ContactForm";
+
 export function Home() {
   return (
     <div className="bodyborder">
@@ -19,7 +21,8 @@ export function Home() {
       <div className="email container.fluid">
         <div className="row">
           <div className="col-sm-12 col-md-8">
-            <EmailForm></EmailForm>
+            {/* <EmailForm></EmailForm> */}
+            <ContactForm></ContactForm>
           </div>
           <div className="col-sm-12 col-md-4">
             <EmailBuddy></EmailBuddy>

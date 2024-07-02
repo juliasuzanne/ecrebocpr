@@ -94,6 +94,8 @@ button {
   background-color:rgba(119, 226, 111, 0.571);
   margin-bottom: 15px;
   border-radius: 20px;
+  list-style: none;
+
 }
 
 
@@ -103,6 +105,8 @@ button {
   border-radius: 20px;
   background-color:rgb(234, 222, 222);
   margin-bottom: 15px;
+  list-style: none;
+
 }
 
 .clicktosee{
